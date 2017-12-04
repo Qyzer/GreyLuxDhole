@@ -2132,11 +2132,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<!-- <ingredient name="steelArrowHead" count="1"/> -->
 		<!-- <ingredient name="wood" count="1"/> -->
 		<!-- <ingredient name="feather" count="1"/> -->
-	</recipe>
+	<!-- </recipe> -->
 	<!-- <recipe name="steelBolt" count="1"> -->
 		<!-- <ingredient name="steelArrowHead" count="1"/> -->
 		<!-- <ingredient name="ironBolt" count="1"/> -->
-	</recipe>
+	<!-- </recipe> -->
 	<recipe name="metalBolt" count="1">
 		<ingredient name="metalArrowHead" count="1"/>
 		<ingredient name="wood" count="1"/>
