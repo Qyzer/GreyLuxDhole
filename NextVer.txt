@@ -2,6 +2,36 @@ Find way to differentiate armor even more
 
 
 Get rid of individual clothing items as loot, all clothing loot is cloth/leather/whatever
+-mostly done
+
+
+gunSquadAuto762
+gunSquadAuto556
+gunAutoShotgun
+gunPistol
+gunPistolSilenced
+gun44Magnum
+gunMachinePistol
+gunSawedOffPumpShotgun
+gunPumpShotgun
+gunDoubleBarrel
+gunMP5
+gunAK47
+gunAKM
+gunHuntingRifle
+gunSniperRifle
+gunAntiMateriel
+gunSportingRifle
+gunRocketLauncher
+blunderbuss
+
+
+
+Necromancy?
+control Z - hit a Z with item and it's now under your sort of control
+
+
+necrobleed (bleeding for Zs)
 
 
 

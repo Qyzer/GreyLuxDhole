@@ -113,8 +113,8 @@ tbnsew:
 			<property name="Item" value="hoeIron"/>
 			<property name="ItemCount" value="0"/>
 			<property name="UpgradeHitCount" value="4"/></property>
-		<!-- <drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="dirt" count="1" prob="0.25" stick_chance="1"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -171,8 +171,8 @@ tbnsew:
 		<property name="Texture" value="185"/>
 		<property name="DropScale" value="2"/>
 		<property name="Map.Color" value="167,136,107"/>
-		<!-- <drop event="Harvest" name="crushedSand" count="10" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="crushedSand" count="10" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
 		<property class="RepairItems">
 			<property name="crushedSand" value="10"/></property>
 		<drop event="Fall" name="crushedSand" count="10" prob="0.5" stick_chance="0"/>
@@ -193,8 +193,8 @@ tbnsew:
 		<property name="CanMobsSpawnOn" value="true"/>
 		<property class="RepairItems">
 			<property name="snowBall" value="10"/></property>
-		<!-- <drop event="Harvest" name="snowBall" count="10" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="snowBall" count="10" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="snow" count="1" prob="0.25" stick_chance="1"/>
 		<drop event="Fall" name="snowBall" count="20" prob="0.187" stick_chance="0"/>
 		<property name="EconomicValue" value="5"/>
@@ -289,8 +289,8 @@ tbnsew:
 		<property class="RepairItems">
 			<property name="concreteMix" value="5"/></property>
 		<property name="Group" value="Building"/>
-		<!-- <drop event="Harvest" name="rockSmall" count="25" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="25" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 		<property name="BuffsWhenWalkedOn" value="asphaltStaBoostTrigger"/>
@@ -308,13 +308,11 @@ tbnsew:
 		<property name="Group" value="Resources"/>
 		<property name="Map.Color" value="158,139,124"/>
 		<!-- gravel: 7 sand, 8 rocks  (1/2 the hit points of stone) -->
-		<!-- <drop event="Harvest" name="crushedSand" count="7" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="rockSmall" count="8" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
-		<!-- <drop event="Fall" name="crushedSand" count="21" prob="0.16" stick_chance="0"/> -->
-		<!-- <drop event="Fall" name="rockSmall" count="24" prob="0.16" stick_chance="0"/> -->
-		<drop event="Fall" name="crushedSand" count="21" prob="0.6" stick_chance="0"/>
-		<drop event="Fall" name="rockSmall" count="24" prob="0.6" stick_chance="0"/>
+		<drop event="Harvest" name="crushedSand" count="7" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="rockSmall" count="8" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="crushedSand" count="21" prob="0.16" stick_chance="0"/>
+		<drop event="Fall" name="rockSmall" count="24" prob="0.16" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -365,8 +363,8 @@ tbnsew:
 			<property name="Item" value="fertilizer"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="4"/></property>
-		<!-- <drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="fertileDirt" count="1" prob="0.25" stick_chance="1"/>
 		<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>
 		<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
@@ -885,8 +883,8 @@ group desc for stuff like metal siding
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<property name="Weight" value="70"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="10"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="10"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="15"/>
 		<property name="EconomicBundleSize" value="2"/>
@@ -921,9 +919,8 @@ group desc for stuff like metal siding
 		<property name="Mesh" value="transparent"/>
 		<property name="Texture" value="333"/>
 		<property name="DescriptionKey" value="bulletproofGlassGroupDesc"/>
-		<property name="Weight" value="70"/>
-		<!-- <drop event="Harvest" name="brokenGlass" count="21"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="brokenGlass" count="21"/>
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="300"/>
 	</block>
 	<block id="118" name="treeGrassMaster">
@@ -976,7 +973,7 @@ group desc for stuff like metal siding
 	<property name="PlantGrowing.GrowOnTop" value="treeSnowyGrassDiagonal"/><property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/><property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>
 	-->
 		<property name="HarvestOverdamage" value="false"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 		<property name="EconomicValue" value="12"/>
@@ -1000,7 +997,7 @@ group desc for stuff like metal siding
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="CropsGrown.BonusHarvestDivisor" value="9"/>
 		<property name="HarvestOverdamage" value="false"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 	</block>
 	<block id="121" name="stainlessSteelMaster">
@@ -1013,11 +1010,10 @@ group desc for stuff like metal siding
 		<property class="RepairItems">
 			<property name="forgedSteel" value="12"/>
 			<property name="steelPolish" value="3"/></property>
-		<property name="Weight" value="70"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="30" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,3" prob="0.25"/> -->
-		<!-- <drop event="Harvest" name="forgedSteel" count="1,3" prob="0.15"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="15"/> -->
+		<drop event="Harvest" name="scrapIron" count="30" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,3" prob="0.25"/>
+		<drop event="Harvest" name="forgedSteel" count="1,3" prob="0.15"/>
+		<drop event="Destroy" name="scrapIron" count="15"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
@@ -1034,9 +1030,8 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="30"/></property>
-		<property name="Weight" value="70"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="17"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="17"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="20"/>
 	</block>
@@ -1049,16 +1044,15 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="cobblestones" value="8"/></property>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteMaster"/>
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_concrete"/>
-		<!-- <drop event="Harvest" name="clayLump" count="6"/> -->
-		<!-- <drop event="Harvest" name="rockSmall" count="6"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="clayLump" count="6"/>
+		<drop event="Harvest" name="rockSmall" count="6"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="14"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -1074,7 +1068,6 @@ group desc for stuff like metal siding
 		<property name="FuelValue" value="150"/>
 		<property class="RepairItems">
 			<property name="wood" value="3"/></property>
-		<property name="Weight" value="50"/>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" name="wood" count="1,2"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.3" stick_chance="1"/>
@@ -1091,9 +1084,8 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="wood" value="3"/></property>
-		<property name="Weight" value="50"/>
-		<!-- <drop event="Harvest" name="wood" count="2"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="wood" count="2"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -1140,7 +1132,7 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="2"/></property>
-		<property name="Weight" value="50" />
+		<property name="Weight" value="25" />
 		<drop event="Harvest" name="scrapIron" count="5" prob="1"/>
 		<drop event="Destroy" name="scrapIron" count="5" />
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.6" stick_chance="1"/>
@@ -1158,15 +1150,14 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="cobblestones" value="3"/></property>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cobblestoneMaster"/>
 			<property name="Item" value="cobblestones"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="6"/></property>
-		<!-- <drop event="Harvest" name="clayLump" count="2"/> -->
-		<!-- <drop event="Harvest" name="rockSmall" count="2"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="clayLump" count="2"/>
+		<drop event="Harvest" name="rockSmall" count="2"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="8"/>
 		<property name="EconomicBundleSize" value="40"/>
@@ -1180,9 +1171,8 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="concreteMix" value="8"/></property>
-		<property name="Weight" value="75"/>
-		<!-- <drop event="Harvest" name="rockSmall" count="25"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="25"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="50"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -1197,17 +1187,16 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="forgedSteel" value="8"/></property>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="stainlessSteelMaster"/>
 			<property name="Item" value="steelPolish"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="20" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,2" prob="0.25"/> -->
-		<!-- <drop event="Harvest" name="forgedSteel" count="1,2" prob="0.15"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="10"/> -->
+		<drop event="Harvest" name="scrapIron" count="20" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.25"/>
+		<drop event="Harvest" name="forgedSteel" count="1,2" prob="0.15"/>
+		<drop event="Destroy" name="scrapIron" count="10"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="160"/>
@@ -1222,15 +1211,14 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="concreteMix" value="8"/></property>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="steelMaster"/>
 			<property name="Item" value="forgedSteel"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<!-- <drop event="Harvest" name="rockSmall" count="13"/> -->
-		<!-- <drop event="Destroy" name="rockSmall" count="12"/> -->
+		<drop event="Harvest" name="rockSmall" count="13"/>
+		<drop event="Destroy" name="rockSmall" count="12"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="7"/>
@@ -1246,11 +1234,10 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="concreteMix" value="8"/></property>
-		<property name="Weight" value="70"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="rConcreteMaster"/>
 		<property name="UpgradeRated.Rate" value="5"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 	</block>
 	<block id="136" name="pouredConcreteMaster">
@@ -1262,11 +1249,10 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="concreteMix" value="8"/></property>
-		<property name="Weight" value="70"/>
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="concreteMaster"/>
 		<property name="UpgradeRated.Rate" value="4"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<property name="DescriptionKey" value="concreteGroupDesc"/>
 	</block>
 	<block id="137" name="brickNoUpgradeMaster">
@@ -1280,8 +1266,8 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="cobblestones" value="5"/></property>
-		<!-- <drop event="Harvest" name="rockSmall" count="16"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="16"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="8"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -1294,7 +1280,6 @@ group desc for stuff like metal siding
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/></property>
-		<property name="Weight" value="70"/>
 		<property name="CustomUpgradeSound" value="place_block_concrete"/>
 		<property name="EconomicValue" value="8"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -1314,10 +1299,9 @@ group desc for stuff like metal siding
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/></property>
-		<property name="Weight" value="70"/>
 		<property name="CustomUpgradeSound" value="place_block_concrete"/>
-		<!-- <drop event="Harvest" name="rockSmall" count="13"/> -->
-		<!-- <drop event="Destroy" name="rockSmall" count="12"/> -->
+		<drop event="Harvest" name="rockSmall" count="13"/>
+		<drop event="Destroy" name="rockSmall" count="12"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="25"/>
@@ -1332,15 +1316,14 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="30"/></property>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteMaster"/>
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_concrete"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="17"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="17"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="40"/>
 		<property name="DescriptionKey" value="scrapIronGroupDesc"/>
@@ -1362,7 +1345,6 @@ group desc for stuff like metal siding
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="Collide" value="movement,melee,rocket"/>
-		<property name="Weight" value="50"/>
 		<!-- -rocket -->
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteMaster"/>
@@ -1373,7 +1355,7 @@ group desc for stuff like metal siding
 		<!-- <property name="CustomUpgradeSound" value="place_block_wood"/> -->
 		<property class="RepairItems">
 			<property name="forgedIron" value="1"/></property>
-		<!-- <drop event="Destroy" name="scrapIron" count="1,5"/> -->
+		<drop event="Destroy" name="scrapIron" count="1,5"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.2" stick_chance="1"/>
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="5"/>
@@ -1385,10 +1367,10 @@ group desc for stuff like metal siding
 		<property name="Texture" value="8"/>
 		<!-- <property name="ImposterExchange" value="imposterBlock" param1="2"/> -->
 		<property name="CreativeMode" value="None"/>
-		<property name="Weight" value="50"/>
+		<property name="Weight" value="5"/>
 		<!-- <property class="RepairItems"><property name="cement" value="7"/></property> -->
-		<!-- <drop event="Harvest" name="rockSmall" count="16"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="16"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -1404,15 +1386,14 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="30"/></property>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronMaster"/>
 			<property name="Item" value="scrapIron"/>
 			<property name="ItemCount" value="40"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="17"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="17"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="DescriptionKey" value="scrapIronGroupDesc"/>
@@ -1427,7 +1408,6 @@ group desc for stuff like metal siding
 		<property name="Mesh" value="cutout"/>
 		<property name="Frame"/>
 		<property name="Texture" value="357"/>
-		<property name="Weight" value="25"/>
 		<property name="ImposterExclude" value="true"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,rocket"/>
@@ -1447,7 +1427,6 @@ group desc for stuff like metal siding
 		<property name="EconomicBundleSize" value="2"/>
 	</block>
 	<block id="146" name="rWoodMetalMaster">
-		<property name="Weight" value="50"/>
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="buildingBlockGroupDesc"/>
 		<property name="Material" value="wood+metal"/>
@@ -1457,7 +1436,6 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="10"/></property>
-		<property name="Weight" value="50"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronMaster"/>
 			<property name="Item" value="scrapIron"/>
@@ -1478,15 +1456,14 @@ group desc for stuff like metal siding
 		<property name="FuelValue" value="300"/>
 		<property class="RepairItems">
 			<property name="wood" value="3"/></property>
-		<property name="Weight" value="25"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodMetalMaster"/>
 			<property name="Item" value="scrapIron"/>
 			<property name="ItemCount" value="12"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<!-- <drop event="Harvest" name="wood" count="2"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="wood" count="2"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="148" name="woodMaster">
@@ -1500,15 +1477,14 @@ group desc for stuff like metal siding
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="wood" value="3"/></property>
-		<property name="Weight" value="25"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodMaster"/>
 			<property name="Item" value="wood"/>
 			<property name="ItemCount" value="4"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<!-- <drop event="Harvest" name="wood" count="2"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="wood" count="2"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -1522,7 +1498,6 @@ group desc for stuff like metal siding
 		<property name="Model" value="cube"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Frame"/>
-		<property name="Weight" value="10"/>
 		<property name="Texture" value="381"/>
 		<property name="ImposterExclude" value="true"/>
 		<property name="ImposterDontBlock" value="true"/>
@@ -1563,7 +1538,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="152" name="woodWedge">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1573,7 +1547,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="153" name="rWoodWedge">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1583,7 +1556,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="154" name="rWoodMetalWedge">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1593,7 +1565,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="155" name="scrapIronFrameWedge">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
@@ -1610,7 +1581,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="157" name="scrapIronWedge">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1620,7 +1590,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="158" name="rScrapIronWedge">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1630,7 +1599,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="159" name="rConcreteWedge">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1658,7 +1626,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="162" name="rConcreteCNRRamp">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -1669,7 +1636,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="163" name="steelWedge">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -1680,7 +1646,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="164" name="woodPlate">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -1688,7 +1653,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="165" name="rWoodPlate">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -1697,7 +1661,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="166" name="rWoodMetalPlate">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -1706,7 +1669,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="167" name="scrapIronPlate">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -1714,7 +1676,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="168" name="rScrapIronPlate">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -1724,7 +1685,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="169" name="rConcretePlate">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -1733,7 +1693,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="170" name="steelCNRRamp">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -1754,7 +1713,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="172" name="rConcreteEighth">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_eighth"/>
@@ -1764,7 +1722,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="173" name="steelPlate">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="356"/>
@@ -1774,7 +1731,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="174" name="woodSupport">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1786,7 +1742,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="175" name="rWoodSupport">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1799,7 +1754,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="176" name="rWoodMetalSupport">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1812,7 +1766,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="177" name="scrapIronSupport">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1824,7 +1777,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="178" name="rScrapIronSupport">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1837,7 +1789,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="179" name="rConcreteSupport">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1850,7 +1801,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="180" name="steelEighth">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_eighth"/>
@@ -1869,7 +1819,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="182" name="rConcreteHalf">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
 		<property class="UpgradeBlock">
@@ -1878,7 +1827,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="183" name="steelSupport">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -1891,7 +1839,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="184" name="steelHalf">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
 		<property name="Texture" value="356"/>
@@ -1920,7 +1867,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="187" name="rConcretePyramid">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
 		<property class="UpgradeBlock">
@@ -1929,7 +1875,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="188" name="steelPyramid">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
 		<property name="Texture" value="356"/>
@@ -1939,7 +1884,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="189" name="woodPillar100">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -1949,7 +1893,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="190" name="scrapIronPillar100">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -1959,7 +1902,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="191" name="rScrapIronPillar100">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -1979,7 +1921,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="193" name="rebarFramePillar100">
 		<property name="Extends" value="rebarFrameMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
@@ -1995,7 +1936,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="194" name="rConcreteQuarter">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_quarter"/>
@@ -2005,7 +1945,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="195" name="rConcretePillar100">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -2016,7 +1955,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="196" name="steelPillar100">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="Texture" value="356"/>
@@ -2028,7 +1966,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="197" name="steelQuarter">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_quarter"/>
@@ -2051,7 +1988,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="199" name="rConcreteStairs25">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2074,7 +2010,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="201" name="rebarFrameBlock">
 		<property name="Extends" value="rebarFrameMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="CanPickup" value="true"/>
 		<property class="UpgradeBlock">
@@ -2097,7 +2032,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="204" name="rConcreteBlock">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="steelBlock"/></property>
 		<property name="DowngradeBlock" value="concreteBlock"/>
@@ -2113,7 +2047,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="206" name="rConcreteWedgeTip">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2123,7 +2056,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="207" name="steelWedgeTip">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2155,14 +2087,12 @@ group desc for stuff like metal siding
 	</block>
 	<block id="211" name="concreteBlock">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteBlock"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredRConcreteBlock"/></property>
 	</block>
 	<block id="212" name="scrapIronFrameBlock">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Group" value="Building,Basics"/>
 		<property name="CanPickup" value="true"/>
@@ -2177,7 +2107,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="214" name="scrapIronFrameCNRInside">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
@@ -2187,7 +2116,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="215" name="scrapIronCNRInside">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property class="UpgradeBlock">
@@ -2202,7 +2130,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="217" name="rScrapIronCNRInside">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property class="UpgradeBlock">
@@ -2211,7 +2138,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="218" name="scrapIronFrameCNRFull">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
@@ -2220,7 +2146,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="219" name="scrapIronCNRFull">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2229,7 +2154,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="220" name="woodBlock">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodBlock"/></property>
 		<property name="DowngradeBlock" value="solidWoodFrameBlock"/>
@@ -2250,7 +2174,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="222" name="woodRamp">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2260,7 +2183,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="223" name="rWoodRamp">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2270,7 +2192,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="224" name="rWoodMetalRamp">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2295,7 +2216,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="227" name="woodCNRInside">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property class="UpgradeBlock">
@@ -2304,7 +2224,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="228" name="rWoodCNRInside">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property name="Texture" value="44,379,379,379,379,379"/>
@@ -2314,7 +2233,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="229" name="rWoodMetalCNRInside">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property class="UpgradeBlock">
@@ -2332,7 +2250,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="231" name="woodCNRFull">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2347,7 +2264,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="233" name="rWoodCNRFull">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2356,7 +2272,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="234" name="rWoodMetalCNRFull">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2371,7 +2286,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="236" name="rScrapIronCNRFull">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2380,7 +2294,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="237" name="woodStairs25">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
@@ -2394,7 +2307,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="238" name="scrapIronStairs25">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="DescriptionKey" value="scrapFrameGroupDesc"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
@@ -2407,7 +2319,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="239" name="rScrapIronStairs25">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="DescriptionKey" value="scrapFrameGroupDesc"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
@@ -2421,7 +2332,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="240" name="scrapIronFrameRamp">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Group" value="Building,Basics"/>
 		<property name="Shape" value="New"/>
@@ -2440,7 +2350,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="242" name="scrapIronRamp">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2450,7 +2359,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="243" name="rScrapIronRamp">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2460,7 +2368,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="244" name="rebarFrameRamp">
 		<property name="Extends" value="rebarFrameMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
@@ -2488,7 +2395,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="247" name="concreteRamp">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteRamp"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
@@ -2507,7 +2413,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="249" name="rConcreteRamp">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -2517,7 +2422,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="250" name="rConcreteCNRFull">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2526,7 +2430,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="251" name="concreteSupport">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteSupport"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -2558,7 +2461,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="254" name="rConcreteCNRInside">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property class="UpgradeBlock">
@@ -2578,7 +2480,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="256" name="steelCNRFull">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -2715,7 +2616,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="272" name="concreteCNRInside">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCNRInside"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
@@ -2724,7 +2624,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="273" name="rWoodStairs25">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
@@ -2801,7 +2700,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="282" name="rConcretePillar50">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Pole0.5m"/>
@@ -2845,8 +2743,8 @@ group desc for stuff like metal siding
 		<!-- -rocket -->
 		<property class="RepairItems">
 			<property name="forgedIron" value="8"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="50" prob="1"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="50" prob="1"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.6" stick_chance="1"/>
 		<property name="EconomicValue" value="80"/>
 	</block>
@@ -2890,14 +2788,12 @@ group desc for stuff like metal siding
 	</block>
 	<block id="293" name="rWoodBlock">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rWoodMetalBlock"/></property>
 		<property name="DowngradeBlock" value="woodBlock"/>
 	</block>
 	<block id="294" name="rWoodMetalBlock">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="DowngradeBlock" value="rWoodBlock"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronBlock"/></property>
@@ -2917,7 +2813,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="296" name="steelPillar50">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Pole0.5m"/>
@@ -3011,7 +2906,7 @@ group desc for stuff like metal siding
 		<property class="RepairItems">
 			<property name="rockSmall" value="8"/></property>
 		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<drop event="Destroy" name="campfire" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Food/Cooking,Basics,Building"/>
@@ -3063,7 +2958,6 @@ group desc for stuff like metal siding
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Furniture/chair03" param1="game"/>
-		<property name="Weight" value="30"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
@@ -3112,8 +3006,7 @@ group desc for stuff like metal siding
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
-		<!-- <property name="Light" value="0.5"/> -->
-		<property name="Light" value="0.9"/>
+		<property name="Light" value="0.5"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
 		<property name="HandleFace" value="West"/>
@@ -3149,7 +3042,7 @@ group desc for stuff like metal siding
 		<!-- build restriction -->
 		<property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/>
 		<property name="HandleFace" value="Top"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="320" name="ceilingLight02">
 		<property name="Extends" value="porchLight01"/>
@@ -3232,8 +3125,8 @@ group desc for stuff like metal siding
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Weight" value="50"/>
 		<property name="FuelValue" value="150"/>
-		<!-- <drop event="Harvest" name="wood" count="6"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="wood" count="6"/>
+		<drop event="Destroy" count="0"/>
 		<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 	</block>
 	<block id="329" name="pew_segment02">
@@ -3345,9 +3238,9 @@ group desc for stuff like metal siding
 		<property name="Model" value="LootContainers/suitcase" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="36"/>
-		<!-- <drop event="Harvest" name="" count="0" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapPlastics" count="2,8" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapPlastics" count="2,8" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="339" name="cntStorageChest">
 		<property name="CreativeMode" value="Player"/>
@@ -3381,8 +3274,7 @@ group desc for stuff like metal siding
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="LootList" value="2"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="scrapPlastics" count="0,1" prob="1"/>
-		<drop event="Destroy" name="scrapPlastics" count="0,12" prob="1" tool_category="Disassemble"/>
+		<drop event="Destroy" name="scrapPlastics" count="0,2" prob="0.2" tool_category="Disassemble"/>
 	</block>
 	<block id="341" name="cntTrashPile02">
 		<property name="Extends" value="cntTrashPile01"/>
@@ -3468,10 +3360,10 @@ group desc for stuff like metal siding
 			<property name="EntityDamage" value="70"/>
 			<!-- damage for entities in the center of the explosion -->
 		</property>
-		<!-- <drop event="Harvest" name="electricParts" count="2,7" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electronicParts" count="0,4" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="mechanicalParts" count="2,4" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="electricParts" count="2,7" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electronicParts" count="0,4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="2,4" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 		<property name="LPHardnessScale" value="0"/>
 		<!-- disable LP for TNT blocks -->
 		<property name="EconomicValue" value="400"/>
@@ -3508,8 +3400,8 @@ group desc for stuff like metal siding
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="OutdoorDecor/grave_stone01" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<!-- <drop event="Harvest" name="rockSmall" count="10"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="10"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.5" stick_chance="1"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	</block>
@@ -3552,7 +3444,7 @@ group desc for stuff like metal siding
 		<property name="ImposterExchange" value="imposterSheet" param1="20"/>
 		<property name="Tag" value="Window"/>
 		<property name="FuelValue" value="150"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="361" name="arrowHelper">
 		<property name="CreativeMode" value="Dev"/>
@@ -3761,7 +3653,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="377" name="concretePillar100">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcretePillar100"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
@@ -3772,7 +3663,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="378" name="concretePillar50">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcretePillar50"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -3979,12 +3869,11 @@ group desc for stuff like metal siding
 			<property name="ItemCount" value="4"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="6"/>
 	</block>
 	<block id="396" name="corrugatedMetalSheet">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="billboard"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -4059,7 +3948,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="405" name="corrugatedMetalCTRPlate">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="plate_centered"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -4085,8 +3973,7 @@ group desc for stuff like metal siding
 		<drop event="Destroy" name="keystoneBlock" count="1"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Stacknumber" value="1"/>
-		<!-- <property name="TakeDelay" value="30"/> -->
-		<property name="TakeDelay" value="3"/>
+		<property name="TakeDelay" value="30"/>
 		<property name="Group" value="Building"/>
 		<property name="EconomicValue" value="160"/>
 		<property name="ActivationDistance" value="14"/>
@@ -4159,14 +4046,12 @@ group desc for stuff like metal siding
 	</block>
 	<block id="414" name="steelBlock">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="stainlessSteelBlock"/></property>
 		<property name="DowngradeBlock" value="rConcreteBlock"/>
 	</block>
 	<block id="415" name="corrugatedMetalCNRFull">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
@@ -4223,7 +4108,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="419" name="corrugatedMetalCNRInside">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property class="UpgradeBlock">
@@ -4241,7 +4125,6 @@ group desc for stuff like metal siding
 	</block>
 	<block id="421" name="corrugatedMetalWedgeTip">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -4274,17 +4157,16 @@ group desc for stuff like metal siding
 			<!-- <property name="shortMetalPipe" value="10"/> -->
 			<property name="forgedIron" value="20"/>
 			<property name="wood" value="40"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="80" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="wood" count="16" tool_category="harvestingTools"/> -->
+		<drop event="Harvest" name="scrapIron" count="80" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="wood" count="16" tool_category="harvestingTools"/>
 		<!-- <drop event="Harvest" name="forgedIron" count="4" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="wood" count="15" tool_category="Disassemble"/> -->
 		<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 		<drop event="Destroy" name="chemistryStation" count="1" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Food/Cooking,Building,Science"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -4330,7 +4212,7 @@ group desc for stuff like metal siding
 		<property name="Material" value="leather" />
 		<property name="Model" value="LootContainers/purse01" param1="main_mesh"/>
 		<property name="LootList" value="48"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="430" name="barbedFence">
 		<property name="Class" value="TrunkTip"/>
@@ -4502,9 +4384,9 @@ kind of free
 		<property name="FallDamage" value="false"/>
 		<property name="FuelValue" value="12"/>
 		<property name="Weight" value="10"/>
-		<!-- <drop event="Harvest" name="cottonPlant" count="2"/> -->
-		<!-- <drop event="Harvest" name="cloth" count="2"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="cottonPlant" count="2"/>
+		<drop event="Harvest" name="cloth" count="2"/>
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="60"/>
 		<!-- disassemble value -->
 	</block>
@@ -4524,9 +4406,9 @@ kind of free
 		<property name="FuelValue" value="12"/>
 		<property name="Weight" value="10"/>
 		<property name="BuffsWhenWalkedOn" value="sleepingBedTrigger"/>
-		<!-- <drop event="Harvest" name="cottonPlant" count="2"/> -->
-		<!-- <drop event="Harvest" name="cloth" count="2"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="cottonPlant" count="2"/>
+		<drop event="Harvest" name="cloth" count="2"/>
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="60"/>
 		<!-- disassemble value -->
 	</block>
@@ -4901,8 +4783,6 @@ kind of free
 			<property name="mechanicalParts" value="2"/>
 			<property name="forgedIron" value="3"/></property>
 		<drop event="Harvest" name="mechanicalParts" count="1,2" tool_category="Disassemble"/>
-		<drop event="Harvest" name="leather" count="1,5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,3" tool_category="Disassemble"/>
 		<drop event="Destroy" name="leather" count="2,4"/>
 		<drop event="Destroy" name="scrapIron" count="5,15"/>
 		<property name="EconomicValue" value="65"/>
@@ -4916,8 +4796,8 @@ kind of free
 		<property name="Model" value="Commercial/store_shelving01" param1="main_mesh"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="3"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="17"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="17"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="18"/>
 	</block>
@@ -5061,17 +4941,16 @@ kind of free
 		<!--
 	<property class="UpgradeBlock"><property name="ToBlock" value="commercialDoor1_v2"/><property name="Item" value="wood"/><property name="ItemCount" value="10"/><property name="UpgradeHitCount" value="4"/></property><property name="CustomUpgradeSound" value="place_block_wood"/>
 	-->
-		<!-- <drop event="Harvest" name="" count="0" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
-		<!-- <drop event="Destroy" name="spring" count="0,2" prob="1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" name="mechanicalParts" count="0,2" prob="1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20,60"/> -->
+		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="spring" count="0,2" prob="1" tool_category="Disassemble"/>
+		<drop event="Destroy" name="mechanicalParts" count="0,2" prob="1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="20,60"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="536" name="corrugatedMetalWedgeIncline">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -5080,7 +4959,6 @@ kind of free
 	</block>
 	<block id="537" name="concreteCNRRound">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCNRRound"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
@@ -5094,14 +4972,12 @@ kind of free
 	</block>
 	<block id="539" name="glassBulletproofBlock">
 		<property name="Extends" value="glassBulletproofMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="glassBulletproofMaster"/>
 		<property class="RepairItems">
 			<property name="glassBulletproofBlock" value="1"/></property>
 	</block>
 	<block id="540" name="glassBulletproofPlate">
 		<property name="Extends" value="glassBulletproofMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Model" value="plate_glass"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
@@ -5109,7 +4985,6 @@ kind of free
 	</block>
 	<block id="541" name="glassBulletproofCTRPlate">
 		<property name="Extends" value="glassBulletproofMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Model" value="plate_centered"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
@@ -5157,7 +5032,6 @@ kind of free
 	</block>
 	<block id="546" name="rConcreteCNRRound">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="91"/>
@@ -5275,16 +5149,15 @@ kind of free
 			<property name="rockSmall" value="50"/>
 			<property name="clayLump" value="50"/>
 			<property name="leather" value="20"/></property>
-		<!-- <drop event="Harvest" name="rockSmall" count="30" tool_category="harvestingTools"/> -->
+		<drop event="Harvest" name="rockSmall" count="30" tool_category="harvestingTools"/>
 		<!-- <drop event="Harvest" name="rockSmall" count="20" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="clayLump" count="20" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="leather" count="5" tool_category="Disassemble"/> -->
 		<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 		<drop event="Destroy" name="forge" count="1" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Basics,Building"/>
 		<property name="DescriptionKey" value="forgeDesc"/>
 		<property name="EconomicValue" value="214"/>
@@ -5559,7 +5432,6 @@ kind of free
 	</block>
 	<block id="576" name="steelCNRRound">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="112"/>
@@ -5745,7 +5617,6 @@ kind of free
 	</block>
 	<block id="594" name="woodWedgeCNRInsideBottom">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -5755,7 +5626,6 @@ kind of free
 	</block>
 	<block id="595" name="woodWedgeCNRInsideTop">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -5804,7 +5674,6 @@ kind of free
 	</block>
 	<block id="601" name="corrugatedMetalPlate">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property class="UpgradeBlock">
@@ -5812,14 +5681,12 @@ kind of free
 	</block>
 	<block id="602" name="glassBulletproofPlateCurved">
 		<property name="Extends" value="glassBulletproofMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Model" value="plate_corner_round_1m"/>
 		<property class="RepairItems">
 			<property name="glassBulletproofPlateCurved" value="1"/></property>
 	</block>
 	<block id="603" name="glassBulletproofRamp">
 		<property name="Extends" value="glassBulletproofMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Model" value="ramp_glass"/>
 		<property class="RepairItems">
 			<property name="glassBulletproofRamp" value="1"/></property>
@@ -6157,7 +6024,6 @@ kind of free
 	</block>
 	<block id="633" name="rWoodWedgeIncline">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6167,7 +6033,6 @@ kind of free
 	</block>
 	<block id="634" name="rWoodMetalWedgeIncline">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6177,7 +6042,6 @@ kind of free
 	</block>
 	<block id="635" name="scrapIronFrameWedgeIncline">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
@@ -6194,7 +6058,6 @@ kind of free
 	</block>
 	<block id="637" name="scrapIronWedgeIncline">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6204,7 +6067,6 @@ kind of free
 	</block>
 	<block id="638" name="stainlessSteelRamp">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6248,7 +6110,6 @@ kind of free
 	</block>
 	<block id="641" name="stainlessSteelWedge">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6358,7 +6219,6 @@ kind of free
 	</block>
 	<block id="649" name="woodArrowSlitHalf">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -6370,7 +6230,6 @@ kind of free
 	</block>
 	<block id="650" name="stainlessSteelWedgeTip">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6378,14 +6237,12 @@ kind of free
 	</block>
 	<block id="651" name="stainlessSteelHalf">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
 		<property name="DowngradeBlock" value="rConcreteHalf"/>
 	</block>
 	<block id="652" name="stainlessSteelQuarter">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_quarter"/>
@@ -6393,7 +6250,6 @@ kind of free
 	</block>
 	<block id="653" name="stainlessSteelEighth">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_eighth"/>
@@ -6401,7 +6257,6 @@ kind of free
 	</block>
 	<block id="654" name="stainlessSteelPlate">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="DowngradeBlock" value="rConcretePlate"/>
@@ -6536,7 +6391,6 @@ kind of free
 	</block>
 	<block id="666" name="rScrapIronWedgeIncline">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6769,7 +6623,6 @@ kind of free
 	</block>
 	<block id="686" name="concreteWedgeIncline">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedgeIncline"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
@@ -6788,7 +6641,6 @@ kind of free
 	</block>
 	<block id="688" name="rConcreteWedgeIncline">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6798,7 +6650,6 @@ kind of free
 	</block>
 	<block id="689" name="steelWedgeIncline">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -6815,7 +6666,6 @@ kind of free
 	</block>
 	<block id="691" name="woodWedgeStairs">
 		<property name="Extends" value="woodMaster" />
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -7036,7 +6886,6 @@ kind of free
 	</block>
 	<block id="705" name="rWoodPillar100">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -7047,7 +6896,6 @@ kind of free
 	</block>
 	<block id="706" name="rWoodMetalPillar100">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -7058,7 +6906,6 @@ kind of free
 	</block>
 	<block id="707" name="stainlessSteelWedgeIncline">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7066,7 +6913,6 @@ kind of free
 	</block>
 	<block id="708" name="rWoodWedgeStairs">
 		<property name="Extends" value="rWoodMaster" />
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -7100,7 +6946,6 @@ kind of free
 	</block>
 	<block id="712" name="rWoodWedgeTipCNRFullTop">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7164,7 +7009,6 @@ kind of free
 	</block>
 	<block id="720" name="concreteCTRPlate">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCTRPlate"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="plate_centered"/>
@@ -7174,7 +7018,6 @@ kind of free
 	</block>
 	<block id="721" name="rWoodMetalWedgeTipCNRFullTop">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7184,7 +7027,6 @@ kind of free
 	</block>
 	<block id="722" name="scrapIronFrameWedgeTipCNRFullTop">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
@@ -7225,7 +7067,6 @@ kind of free
 	</block>
 	<block id="726" name="scrapIronWedgeTipCNRFullTop">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7235,7 +7076,6 @@ kind of free
 	</block>
 	<block id="727" name="rScrapIronWedgeTipCNRFullTop">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7253,7 +7093,6 @@ kind of free
 	</block>
 	<block id="729" name="concreteWedgeTipCNRFullTop">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedgeTipCNRFullTop"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
@@ -7272,7 +7111,6 @@ kind of free
 	</block>
 	<block id="731" name="rConcreteWedgeTipCNRFullTop">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7290,14 +7128,12 @@ kind of free
 	</block>
 	<block id="733" name="rScrapIronBlock">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteBlock"/></property>
 		<property name="DowngradeBlock" value="scrapIronBlock"/>
 	</block>
 	<block id="734" name="steelWedgeTipCNRFullTop">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7308,7 +7144,6 @@ kind of free
 	</block>
 	<block id="735" name="stainlessSteelWedgeTipCNRFullTop">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7316,7 +7151,6 @@ kind of free
 	</block>
 	<block id="736" name="rWoodMetalWedgeStairs">
 		<property name="Extends" value="rWoodMetalMaster" />
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -7398,7 +7232,6 @@ kind of free
 	</block>
 	<block id="745" name="woodWedgeTipStairs">
 		<property name="Extends" value="woodMaster" />
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -7408,7 +7241,6 @@ kind of free
 	</block>
 	<block id="746" name="rWoodWedgeTipStairs">
 		<property name="Extends" value="rWoodMaster" />
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -7418,7 +7250,6 @@ kind of free
 	</block>
 	<block id="747" name="rWoodMetalWedgeTipStairs">
 		<property name="Extends" value="rWoodMetalMaster" />
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -7428,7 +7259,6 @@ kind of free
 	</block>
 	<block id="748" name="scrapIronFrameWedgeTipStairs">
 		<property name="Extends" value="scrapIronFrameMaster" />
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
@@ -7594,7 +7424,6 @@ kind of free
 	</block>
 	<block id="766" name="stainlessSteelCTRPlate">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="plate_centered"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7611,14 +7440,12 @@ kind of free
 	</block>
 	<block id="769" name="stainlessSteelCNRFull">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property name="DowngradeBlock" value="rConcreteCNRFull"/>
 	</block>
 	<block id="770" name="woodLogPillar100">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="MaxDamage" value="400"/>
 		<property name="Class" value="Trunk"/>
 		<property name="Shape" value="New"/>
@@ -7637,7 +7464,6 @@ kind of free
 	</block>
 	<block id="771" name="stainlessSteelCNRRamp">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -7650,7 +7476,6 @@ kind of free
 	</block>
 	<block id="773" name="concreteEighth">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteEighth"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Shape" value="New"/>
@@ -7660,7 +7485,6 @@ kind of free
 	</block>
 	<block id="774" name="concreteQuarter">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteQuarter"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -7670,7 +7494,6 @@ kind of free
 	</block>
 	<block id="775" name="concreteHalf">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteHalf"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="cube_half"/>
@@ -7679,14 +7502,12 @@ kind of free
 	</block>
 	<block id="776" name="stainlessSteelCNRInside">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property name="DowngradeBlock" value="rConcreteCNRInside"/>
 	</block>
 	<block id="777" name="concreteCNRRamp">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCNRRamp"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
@@ -7697,7 +7518,6 @@ kind of free
 	</block>
 	<block id="778" name="concretePyramid">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcretePyramid"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
@@ -7712,7 +7532,6 @@ kind of free
 	</block>
 	<block id="780" name="stainlessSteelSupport">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Branch_legacy"/>
@@ -7723,7 +7542,6 @@ kind of free
 	</block>
 	<block id="781" name="concreteCNRFull">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCNRFull"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
@@ -7732,7 +7550,6 @@ kind of free
 	</block>
 	<block id="782" name="concretePole">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcretePole"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -7744,7 +7561,6 @@ kind of free
 	</block>
 	<block id="783" name="concretePlate">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcretePlate"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
@@ -7753,7 +7569,6 @@ kind of free
 	</block>
 	<block id="784" name="rWoodWedgeTipCNRFullBottom">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7768,7 +7583,6 @@ kind of free
 	</block>
 	<block id="786" name="rWoodMetalWedgeTipCNRFullBottom">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7778,7 +7592,6 @@ kind of free
 	</block>
 	<block id="787" name="scrapIronFrameWedgeTipCNRFullBottom">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
@@ -7813,14 +7626,12 @@ kind of free
 	</block>
 	<block id="789" name="stainlessSteelPyramid">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
 		<property name="DowngradeBlock" value="rConcretePyramid"/>
 	</block>
 	<block id="790" name="stainlessSteelPillar100">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -7829,7 +7640,6 @@ kind of free
 	</block>
 	<block id="791" name="stainlessSteelPillar50">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Pole0.5m"/>
@@ -7839,7 +7649,6 @@ kind of free
 	</block>
 	<block id="792" name="iBeamSmall">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="i_beam_small"/>
@@ -7923,7 +7732,6 @@ kind of free
 	<!-- 1 Free -->
 	<block id="806" name="stainlessSteelStairs25">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7940,7 +7748,6 @@ kind of free
 	</block>
 	<block id="808" name="scrapIronWedgeTipCNRFullBottom">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7950,7 +7757,6 @@ kind of free
 	</block>
 	<block id="809" name="rScrapIronWedgeTipCNRFullBottom">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -7968,7 +7774,6 @@ kind of free
 	</block>
 	<block id="811" name="stainlessSteelPole">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -7978,7 +7783,6 @@ kind of free
 	</block>
 	<block id="812" name="concreteWedgeTipCNRFullBottom">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedgeTipCNRFullBottom"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
@@ -7997,7 +7801,6 @@ kind of free
 	</block>
 	<block id="814" name="rConcreteWedgeTipCNRFullBottom">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8007,7 +7810,6 @@ kind of free
 	</block>
 	<block id="815" name="corrugatedMetalCNRRamp">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -8039,7 +7841,6 @@ kind of free
 	</block>
 	<block id="818" name="bridgeMetalRivetBlock">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Material" value="Mbridge_metal"/>
 		<property name="Texture" value="46"/>
@@ -8055,14 +7856,12 @@ kind of free
 	</block>
 	<block id="820" name="bridgeWoodBlock">
 		<property name="Extends" value="woodBlock"/>
-		<property name="Weight" value="10"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="CustomIcon" value="woodBlock"/>
 		<property name="Material" value="Mbridge_wood"/>
 	</block>
 	<block id="821" name="steelWedgeTipCNRFullBottom">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8073,7 +7872,6 @@ kind of free
 	</block>
 	<block id="822" name="stainlessSteelWedgeTipCNRFullBottom">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8139,7 +7937,6 @@ kind of free
 	</block>
 	<block id="829" name="scrapIronFrameWedgeStairs">
 		<property name="Extends" value="scrapIronFrameMaster" />
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
@@ -8150,7 +7947,6 @@ kind of free
 	</block>
 	<block id="830" name="woodHalf">
 		<property name="Extends" value="woodMaster" />
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="cube_half" />
 		<property class="UpgradeBlock">
@@ -8197,8 +7993,8 @@ kind of free
 		<property name="Stairs"/>
 		<property class="RepairItems">
 			<property name="concreteMix" value="10"/></property>
-		<!-- <drop event="Harvest" name="rockSmall" count="25"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="25"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="835" name="woodFrameWedgeCNRInsideBottom">
@@ -8299,7 +8095,6 @@ kind of free
 	</block>
 	<block id="844" name="rWoodWedgeCNRInsideBottom">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8309,7 +8104,6 @@ kind of free
 	</block>
 	<block id="845" name="rWoodMetalWedgeCNRInsideBottom">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8319,7 +8113,6 @@ kind of free
 	</block>
 	<block id="846" name="scrapIronFrameWedgeCNRInsideBottom">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
@@ -8342,7 +8135,6 @@ kind of free
 	</block>
 	<block id="849" name="scrapIronWedgeCNRInsideBottom">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8352,7 +8144,6 @@ kind of free
 	</block>
 	<block id="850" name="rScrapIronWedgeCNRInsideBottom">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8423,7 +8214,6 @@ kind of free
 	</block>
 	<block id="858" name="concreteWedgeCNRInsideBottom">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedgeCNRInsideBottom"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
@@ -8442,7 +8232,6 @@ kind of free
 	</block>
 	<block id="860" name="corrugatedMetalBlock">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="scrapIronBlock"/></property>
 	</block>
@@ -8463,7 +8252,6 @@ kind of free
 	</block>
 	<block id="862" name="rWoodArrowSlitHalf">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -8519,7 +8307,6 @@ kind of free
 	</block>
 	<block id="872" name="rConcreteWedgeCNRInsideBottom">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8561,10 +8348,10 @@ kind of free
 		<property name="Texture" value="267,446,446,307,307,307"/>
 		<property class="RepairItems">
 			<property name="forgedSteel" value="10"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="60" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,2" prob="0.15"/> -->
-		<!-- <drop event="Harvest" name="forgedSteel" count="1,2" prob="0.05"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="30"/> -->
+		<drop event="Harvest" name="scrapIron" count="60" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.15"/>
+		<drop event="Harvest" name="forgedSteel" count="1,2" prob="0.05"/>
+		<drop event="Destroy" name="scrapIron" count="30"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="284"/>
@@ -8578,10 +8365,10 @@ kind of free
 		<property name="Texture" value="446,267,385,307,307,307"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="10"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="40" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,2" prob=".15"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="20"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="40" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,2" prob=".15"/>
+		<drop event="Destroy" name="scrapIron" count="20"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="164"/>
 		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
@@ -8593,7 +8380,6 @@ kind of free
 	</block>
 	<block id="881" name="steelWedgeCNRInsideBottom">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8604,7 +8390,6 @@ kind of free
 	</block>
 	<block id="882" name="rWoodMetalArrowSlitHalf">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -8670,7 +8455,6 @@ kind of free
 	</block>
 	<block id="889" name="corrugatedMetalRamp">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8767,7 +8551,6 @@ kind of free
 	</block>
 	<block id="897" name="stainlessSteelWedgeCNRInsideBottom">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8787,7 +8570,6 @@ kind of free
 	</block>
 	<block id="899" name="scrapIronArrowSlitHalf">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -8863,7 +8645,6 @@ kind of free
 	</block>
 	<block id="908" name="scrapIronWedgeStairs">
 		<property name="Extends" value="scrapIronMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -8898,7 +8679,6 @@ kind of free
 	</block>
 	<block id="911" name="rScrapIronArrowSlitHalf">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -8953,7 +8733,6 @@ kind of free
 	</block>
 	<block id="918" name="rWoodWedgeCNRInsideTop">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8963,7 +8742,6 @@ kind of free
 	</block>
 	<block id="919" name="rWoodMetalWedgeCNRInsideTop">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -8973,7 +8751,6 @@ kind of free
 	</block>
 	<block id="920" name="corrugatedMetalPillar100">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole1m"/>
 		<property name="UseGlobalUV" value="Local"/>
@@ -8983,7 +8760,6 @@ kind of free
 	</block>
 	<block id="921" name="scrapIronFrameWedgeCNRInsideTop">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
@@ -9000,7 +8776,6 @@ kind of free
 	</block>
 	<block id="923" name="corrugatedMetalPillar50">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Pole0.5m"/>
@@ -9040,7 +8815,6 @@ kind of free
 	</block>
 	<block id="928" name="rWoodCNRRampFiller">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9051,7 +8825,6 @@ kind of free
 	</block>
 	<block id="929" name="rWoodMetalCNRRampFiller">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9062,7 +8835,6 @@ kind of free
 	</block>
 	<block id="930" name="scrapIronFrameCNRRampFiller">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
@@ -9074,14 +8846,12 @@ kind of free
 	</block>
 	<block id="931" name="chaulkboardPlate">
 		<property name="Extends" value="stoneNoUpgradeMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Plate"/>
 		<property name="Texture" value="372"/>
 	</block>
 	<block id="932" name="scrapIronWedgeCNRInsideTop">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9091,7 +8861,6 @@ kind of free
 	</block>
 	<block id="933" name="rScrapIronWedgeCNRInsideTop">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9120,7 +8889,6 @@ kind of free
 	</block>
 	<block id="936" name="concreteWedgeCNRInsideTop">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedgeCNRInsideTop"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
@@ -9130,7 +8898,6 @@ kind of free
 	</block>
 	<block id="937" name="concreteArrowSlitHalf">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteArrowSlitHalf"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
@@ -9163,7 +8930,6 @@ kind of free
 	</block>
 	<block id="940" name="rConcreteWedgeCNRInsideTop">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9173,7 +8939,6 @@ kind of free
 	</block>
 	<block id="941" name="rConcreteArrowSlitHalf">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -9186,7 +8951,6 @@ kind of free
 	</block>
 	<block id="942" name="steelWedgeCNRInsideTop">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9197,7 +8961,6 @@ kind of free
 	</block>
 	<block id="943" name="stainlessSteelWedgeCNRInsideTop">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_inside_corner_2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9269,7 +9032,6 @@ kind of free
 	</block>
 	<block id="947" name="rScrapIronWedgeStairs">
 		<property name="Extends" value="rScrapIronMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -9299,11 +9061,11 @@ kind of free
 			<property name="forgedSteel" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
 		<property name="DowngradeBlock" value="ladderMetal"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="15" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,2" prob="0.25"/> -->
-		<!-- <drop event="Harvest" name="forgedSteel" count="1" prob="0.15"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="10"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="15" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.25"/>
+		<drop event="Harvest" name="forgedSteel" count="1" prob="0.15"/>
+		<drop event="Destroy" name="scrapIron" count="10"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="DescriptionKey" value="ladderMetalDesc"/>
@@ -9312,7 +9074,6 @@ kind of free
 	<!-- 35 Free -->
 	<block id="985" name="steelArrowSlitHalf">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -9325,7 +9086,6 @@ kind of free
 	</block>
 	<block id="986" name="stainlessSteelArrowSlitHalf">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="arrow_slit_half"/>
@@ -9338,7 +9098,6 @@ kind of free
 	<property name="IsDeveloper" value="false"/><property name="Extends" value="rConcreteMaster"/><property name="Shape" value="New"/><property name="LightOpacity" value="6"/><property name="Model" value="arrow_slit"/><property name="ImposterExchange" value="imposterBlock" param1="xxx"/><property name="Place" value="TowardsPlacerInverted"/></block> -->
 	<block id="988" name="woodPole">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -9395,7 +9154,6 @@ kind of free
 	</block>
 	<block id="995" name="woodStairs25CornerCNR">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9410,7 +9168,6 @@ kind of free
 	</block>
 	<block id="997" name="rWoodStairs25CornerCNR">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9421,7 +9178,6 @@ kind of free
 	</block>
 	<block id="998" name="rWoodMetalStairs25CornerCNR">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9432,7 +9188,6 @@ kind of free
 	</block>
 	<block id="999" name="scrapIronFrameStairs25CornerCNR">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
@@ -9464,7 +9219,6 @@ kind of free
 	</block>
 	<block id="1003" name="scrapIronCNRRampFiller">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9475,7 +9229,6 @@ kind of free
 	</block>
 	<block id="1004" name="rScrapIronCNRRampFiller">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9505,7 +9258,6 @@ kind of free
 	</block>
 	<block id="1007" name="rConcreteCNRRampFiller">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9516,7 +9268,6 @@ kind of free
 	</block>
 	<block id="1008" name="steelCNRRampFiller">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9538,7 +9289,6 @@ kind of free
 	</block>
 	<block id="1030" name="scrapIronStairs25CornerCNR">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9554,7 +9304,6 @@ kind of free
 	</block>
 	<block id="1032" name="rScrapIronStairs25CornerCNR">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9576,7 +9325,6 @@ kind of free
 	</block>
 	<block id="1034" name="stainlessSteelCNRRampFiller">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9633,8 +9381,8 @@ kind of free
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge_tip_half"/>
 		<property name="Texture" value="226"/>
-		<!-- <drop event="Harvest" name="rockSmall" count="16"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="16"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1041" name="pouredConcreteStairs25CornerCNR">
@@ -9734,7 +9482,6 @@ kind of free
 	</block>
 	<block id="1061" name="concreteStairs25CornerCNR">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteStairs25CornerCNR"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
@@ -9755,7 +9502,6 @@ kind of free
 	</block>
 	<block id="1063" name="concreteWedgeStairs">
 		<property name="Extends" value="concreteMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -9770,7 +9516,6 @@ kind of free
 	</block>
 	<block id="1065" name="woodArch">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9780,7 +9525,6 @@ kind of free
 	</block>
 	<block id="1066" name="rWoodArch">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9790,7 +9534,6 @@ kind of free
 	</block>
 	<block id="1067" name="rWoodWedgeTip">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9800,7 +9543,6 @@ kind of free
 	</block>
 	<block id="1068" name="rWoodMetalArch">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9810,7 +9552,6 @@ kind of free
 	</block>
 	<block id="1069" name="scrapIronFrameArch">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
@@ -9827,7 +9568,6 @@ kind of free
 	</block>
 	<block id="1071" name="scrapIronArch">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9837,7 +9577,6 @@ kind of free
 	</block>
 	<block id="1072" name="concreteStairs25">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteStairs25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
@@ -9850,7 +9589,6 @@ kind of free
 	</block>
 	<block id="1073" name="steelStairs25CornerCNR">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9904,14 +9642,12 @@ kind of free
 	<!-- 14 Free -->
 	<block id="1092" name="scrapIronBlock">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronBlock"/></property>
 		<property name="DowngradeBlock" value="solidScrapIronFrameBlock"/>
 	</block>
 	<block id="1093" name="stainlessSteelStairs25CornerCNR">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9970,7 +9706,6 @@ kind of free
 	</block>
 	<block id="1098" name="rWoodMetalWedgeTip">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -9989,7 +9724,6 @@ kind of free
 	</block>
 	<block id="1100" name="scrapIronFrameWedgeTip">
 		<property name="Extends" value="scrapIronFrameMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
@@ -10066,7 +9800,6 @@ kind of free
 	</block>
 	<block id="1109" name="rScrapIronArch">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10084,7 +9817,6 @@ kind of free
 	</block>
 	<block id="1111" name="concreteArch">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteArch"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
@@ -10103,7 +9835,6 @@ kind of free
 	</block>
 	<block id="1113" name="scrapIronWedgeTip">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10113,7 +9844,6 @@ kind of free
 	</block>
 	<block id="1114" name="rScrapIronWedgeTip">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10127,7 +9857,7 @@ kind of free
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cobblestoneWedgeIncline"/></property>-															
+			<property name="ToBlock" value="cobblestoneWedgeIncline"/></property>-														
 	</block>
 	<block id="1116" name="flagstoneCNRRamp">
 		<property name="Extends" value="flagstoneMaster"/>
@@ -10136,14 +9866,14 @@ kind of free
 		<property name="Model" value="ramp_corner"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cobblestoneCNRRamp"/></property>-															
+			<property name="ToBlock" value="cobblestoneCNRRamp"/></property>-														
 	</block>
 	<block id="1117" name="flagstonePyramid">
 		<property name="Extends" value="flagstoneMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pyramid"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cobblestonePyramid"/></property>-															
+			<property name="ToBlock" value="cobblestonePyramid"/></property>-														
 	</block>
 	<block id="1118" name="flagstoneArch3m">
 		<property name="Material" value="Mbrick"/>
@@ -10164,7 +9894,6 @@ kind of free
 	</block>
 	<block id="1121" name="rConcreteWedgeStairs">
 		<property name="Extends" value="rConcreteMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -10184,7 +9913,6 @@ kind of free
 	</block>
 	<block id="1123" name="rConcreteArch">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10194,7 +9922,6 @@ kind of free
 	</block>
 	<block id="1124" name="steelArch">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10224,7 +9951,6 @@ kind of free
 	</block>
 	<block id="1127" name="concreteWedge">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedge"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60"/>
@@ -10234,7 +9960,6 @@ kind of free
 	</block>
 	<block id="1128" name="stainlessSteelArch">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Arch"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10242,7 +9967,6 @@ kind of free
 	</block>
 	<block id="1129" name="steelWedgeStairs">
 		<property name="Extends" value="steelMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -10253,7 +9977,6 @@ kind of free
 	</block>
 	<block id="1130" name="woodWedgeIncline">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_incline"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10279,7 +10002,6 @@ kind of free
 	</block>
 	<block id="1133" name="stainlessSteelCTREighth">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="cube_eighth_centered"/>
@@ -10287,7 +10009,6 @@ kind of free
 	</block>
 	<block id="1134" name="concreteCNRRampFiller">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCNRRampFiller"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
@@ -10298,7 +10019,6 @@ kind of free
 	</block>
 	<block id="1135" name="concreteWedgeTip">
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteWedgeTip"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
@@ -10332,7 +10052,6 @@ kind of free
 	</block>
 	<block id="1139" name="woodWedgeTip">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10341,7 +10060,6 @@ kind of free
 	</block>
 	<block id="1140" name="stainlessSteelWedgeStairs">
 		<property name="Extends" value="stainlessSteelMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -10491,8 +10209,8 @@ kind of free
 			<property name="ItemCount" value="4"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="8" prob="1"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="8" prob="1"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Group" value="Building"/>
 	</block>
@@ -10541,10 +10259,10 @@ kind of free
 		<property name="DowngradeBlock" value="commercialDoor1_v2"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="20"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="8" prob="1"/> -->
+		<drop event="Harvest" name="scrapIron" count="8" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Group" value="Building"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1167" name="commercialDoor2_v1">
 		<property name="Extends" value="commercialDoor1_v1"/>
@@ -10621,7 +10339,6 @@ kind of free
 	</block>
 	<block id="1177" name="scrapIronWedgeTipStairs">
 		<property name="Extends" value="scrapIronMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -10631,7 +10348,6 @@ kind of free
 	</block>
 	<block id="1178" name="rScrapIronWedgeTipStairs">
 		<property name="Extends" value="rScrapIronMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -10760,7 +10476,7 @@ kind of free
 			<property name="ItemCount" value="4"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1192" name="cntShippingCrateBookstore">
 		<property name="Extends" value="cntShippingCrateShamway"/>
@@ -10795,7 +10511,6 @@ kind of free
 	</block>
 	<block id="1198" name="woodCNRRampFiller">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_corner_filler"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -10954,7 +10669,7 @@ kind of free
 		<property name="Model" value="Buildings/door_frame_white1" param1="main_mesh"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1214" name="doorFrameWhite2">
 		<property name="Extends" value="doorFrameWhite1"/>
@@ -11276,7 +10991,6 @@ kind of free
 	</block>
 	<block id="1254" name="concreteWedgeTipStairs">
 		<property name="Extends" value="concreteMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -11425,7 +11139,6 @@ kind of free
 	</block>
 	<block id="1271" name="woodCatwalk">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Material" value="MwoodCatwalk"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
@@ -11559,7 +11272,6 @@ kind of free
 	</block>
 	<block id="1286" name="corrugatedMetalSheetBent1">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="shantyWall01"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -11589,7 +11301,6 @@ kind of free
 	</block>
 	<block id="1291" name="scrapIronPillar50">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Pole0.5m"/>
@@ -11600,7 +11311,6 @@ kind of free
 	</block>
 	<block id="1292" name="rScrapIronPillar50">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="Pole0.5m"/>
@@ -11612,7 +11322,6 @@ kind of free
 	</block>
 	<block id="1293" name="scrapIronCNRRamp">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -11622,7 +11331,6 @@ kind of free
 	</block>
 	<block id="1294" name="rScrapIronCNRRamp">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="ramp_corner"/>
@@ -11641,7 +11349,6 @@ kind of free
 	</block>
 	<block id="1296" name="rScrapIronCTRPlate">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="plate_centered"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -11651,7 +11358,6 @@ kind of free
 	</block>
 	<block id="1297" name="scrapIronCNRRound">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property class="UpgradeBlock">
@@ -11660,7 +11366,6 @@ kind of free
 	</block>
 	<block id="1298" name="rScrapIronCNRRound">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property class="UpgradeBlock">
@@ -11670,7 +11375,6 @@ kind of free
 	</block>
 	<block id="1299" name="scrapIronCNRRoundTop">
 		<property name="Extends" value="scrapIronMaster" param1="DowngradeBlock"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property class="UpgradeBlock">
@@ -11679,7 +11383,6 @@ kind of free
 	</block>
 	<block id="1300" name="rScrapIronCNRRoundTop">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property class="UpgradeBlock">
@@ -11936,7 +11639,6 @@ kind of free
 	</block>
 	<block id="1334" name="rConcreteWedgeTipStairs">
 		<property name="Extends" value="rConcreteMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -11946,13 +11648,11 @@ kind of free
 	</block>
 	<block id="1335" name="brickGable">
 		<property name="Extends" value="brickNoUpgradeMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge_tip_half"/>
 	</block>
 	<block id="1336" name="corrugatedMetalStairs25">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -11965,7 +11665,6 @@ kind of free
 	</block>
 	<block id="1337" name="corrugatedMetalPole">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="pole_square"/>
 		<property name="LightOpacity" value="0"/>
@@ -12138,7 +11837,6 @@ kind of free
 	</block>
 	<block id="1356" name="steelWedgeTipStairs">
 		<property name="Extends" value="steelMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -12149,7 +11847,6 @@ kind of free
 	</block>
 	<block id="1357" name="stainlessSteelWedgeTipStairs">
 		<property name="Extends" value="stainlessSteelMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="wedge_tip_stairs" />
 		<property name="Place" value="TowardsPlacerInverted" />
@@ -12263,7 +11960,6 @@ kind of free
 	</block>
 	<block id="1376" name="rWoodHalf">
 		<property name="Extends" value="rWoodMaster" />
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="cube_half" />
 		<property class="UpgradeBlock">
@@ -12451,7 +12147,6 @@ kind of free
 	</block>
 	<block id="1400" name="rWoodMetalHalf">
 		<property name="Extends" value="rWoodMetalMaster" />
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="cube_half" />
 		<property class="UpgradeBlock">
@@ -12531,7 +12226,6 @@ kind of free
 	</block>
 	<block id="1407" name="scrapIronFrameHalf">
 		<property name="Extends" value="scrapIronFrameMaster" />
-		<property name="Weight" value="25"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="cube_half" />
@@ -12621,7 +12315,7 @@ kind of free
 		<property name="Model" value="Entities/Buildings/window03WoodPrefab"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<property name="Weight" value="10"/>
+		<property name="Weight" value="0"/>
 		<property name="FuelValue" value="240"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="plainWoodWindowPlug"/>
@@ -12671,7 +12365,6 @@ kind of free
 	</block>
 	<block id="1417" name="scrapIronHalf">
 		<property name="Extends" value="scrapIronMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="cube_half" />
 		<property class="UpgradeBlock">
@@ -12696,7 +12389,6 @@ kind of free
 	</block>
 	<block id="1419" name="rScrapIronHalf">
 		<property name="Extends" value="rScrapIronMaster" />
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New" />
 		<property name="Model" value="cube_half" />
 		<property class="UpgradeBlock">
@@ -12735,7 +12427,6 @@ kind of free
 	<!-- 1 Free -->
 	<block id="1424" name="steelStairs25">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="StairsFilledVerticalUV"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -12749,7 +12440,6 @@ kind of free
 	</block>
 	<block id="1425" name="steelRamp">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -13021,10 +12711,10 @@ kind of free
 		<property class="RepairItems">
 			<property name="electricParts" value="6"/>
 			<property name="scrapIron" value="40"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="24" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="24" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="TakeDelay" value="-1"/>
 		<property name="Group" value="Science"/>
@@ -13058,10 +12748,10 @@ kind of free
 			<property name="ItemCount" value="12"/>
 			<property name="UpgradeHitCount" value="6"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="96" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,6" prob=".75"/> -->
-		<!-- <drop event="Harvest" name="forgedSteel" count="1,3" prob="0.25"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="48"/> -->
+		<drop event="Harvest" name="scrapIron" count="96" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,6" prob=".75"/>
+		<drop event="Harvest" name="forgedSteel" count="1,3" prob="0.25"/>
+		<drop event="Destroy" name="scrapIron" count="48"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Group" value="Building"/>
@@ -13101,10 +12791,10 @@ kind of free
 		<property class="RepairItems">
 			<property name="forgedSteel" value="12"/></property>
 		<property name="DowngradeBlock" value="vaultDoor02"/>
-		<!-- <drop event="Harvest" name="scrapIron" count="96" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="1,6" prob="1"/> -->
-		<!-- <drop event="Harvest" name="forgedSteel" count="1,3" prob="0.5"/> -->
-		<!-- <drop event="Destroy" name="scrapIron" count="48"/> -->
+		<drop event="Harvest" name="scrapIron" count="96" prob="1"/>
+		<drop event="Harvest" name="forgedIron" count="1,6" prob="1"/>
+		<drop event="Harvest" name="forgedSteel" count="1,3" prob="0.5"/>
+		<drop event="Destroy" name="scrapIron" count="48"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Group" value="Building"/>
@@ -13523,7 +13213,6 @@ kind of free
 	<!-- 15 Free -->
 	<block id="1500" name="rebarFrameCNRInside">
 		<property name="Extends" value="rebarFrameMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
@@ -13543,7 +13232,6 @@ kind of free
 	<!-- 1 Free -->
 	<block id="1505" name="steelCNRInside">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_inside_corner"/>
 		<property name="Texture" value="356"/>
@@ -13560,12 +13248,12 @@ kind of free
 		<property name="Model" value="Industrial/control_panel_base_01" param1="main_mesh"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="2"/>
-		<!-- <drop event="Harvest" name="forgedIron" count="1" prob="0.1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="spring" count="1" prob="0.1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="1,5" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electronicParts" count="1,5" prob="0.4" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="forgedIron" count="1" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="spring" count="1" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="1,5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electronicParts" count="1,5" prob="0.4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="20"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 	</block>
 	<block id="1510" name="controlPanelBase02">
@@ -13674,7 +13362,7 @@ kind of free
 			<property name="ItemCount" value="40"/>
 			<property name="UpgradeHitCount" value="4"/></property>
 		<property name="CustomUpgradeSound" value="place_block_metal"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1531" name="rScrapIronWindowPlug06CTRPlate">
 		<!-- redundant? -->
@@ -13696,7 +13384,6 @@ kind of free
 	</block>
 	<block id="1532" name="rConcreteCTRPlate">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="plate_centered"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -13707,7 +13394,6 @@ kind of free
 	<!-- 3 Free -->
 	<block id="1536" name="steelCTRPlate">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="plate_centered"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -13718,7 +13404,6 @@ kind of free
 	</block>
 	<block id="1537" name="rWoodPole">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -13730,7 +13415,6 @@ kind of free
 	</block>
 	<block id="1538" name="rWoodMetalPole">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -13742,7 +13426,6 @@ kind of free
 	</block>
 	<block id="1539" name="scrapIronPole">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -13754,7 +13437,6 @@ kind of free
 	</block>
 	<block id="1540" name="rScrapIronPole">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -13766,7 +13448,6 @@ kind of free
 	</block>
 	<block id="1541" name="rConcretePole">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -13778,7 +13459,6 @@ kind of free
 	</block>
 	<block id="1542" name="steelPole">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square"/>
@@ -13856,8 +13536,7 @@ kind of free
 		<!-- build restriction -->
 		<property name="Shape" value="ModelEntity"/>
 		<property name="ImposterDontBlock" value="true"/>
-		<!-- <property name="Light" value="0.5"/> -->
-		<property name="Light" value="0.9"/>
+		<property name="Light" value="0.5"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="Model" value="Entities/Lighting/industrialLight01Prefab"/>
 		<property name="HandleFace" value="South"/>
@@ -13953,17 +13632,16 @@ kind of free
 			<property name="forgedIron" value="25"/>
 			<property name="spring" value="4"/>
 			<property name="mechanicalParts" value="10"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="150" tool_category="harvestingTools"/> -->
+		<drop event="Harvest" name="scrapIron" count="150" tool_category="harvestingTools"/>
 		<!-- <drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="spring" count="2" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="mechanicalParts" count="4" tool_category="Disassemble"/> -->
 		<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 		<drop event="Destroy" name="cementMixer" count="1" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" name="scrapIron" count="150"/> -->
+		<drop event="Destroy" name="scrapIron" count="150"/>
 		<!-- <drop event="Destroy" count="0"/> -->
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="cementMixerDesc"/>
 		<property name="EconomicValue" value="1544"/>
 		<property name="Group" value="Building,Science"/>
@@ -14021,17 +13699,16 @@ kind of free
 			<property name="forgedIron" value="25"/>
 			<property name="mechanicalParts" value="20"/>
 			<property name="wood" value="50"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="200" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="wood" count="20" tool_category="harvestingTools"/> -->
+		<drop event="Harvest" name="scrapIron" count="200" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="wood" count="20" tool_category="harvestingTools"/>
 		<!-- <drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="mechanicalParts" count="8" tool_category="Disassemble"/> -->
 		<!-- <drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/> -->
 		<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 		<drop event="Destroy" name="workbench" count="1" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="workbenchDesc"/>
 		<property name="EconomicValue" value="776"/>
 		<property name="Group" value="Building,Science"/>
@@ -14268,7 +13945,6 @@ kind of free
 	</block>
 	<block id="1620" name="brickCNRRound">
 		<property name="Extends" value="brickNoUpgradeMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="Texture" value="7"/>
@@ -14305,7 +13981,6 @@ kind of free
 	<!-- n Free -->
 	<block id="1645" name="corrugatedMetalCNRRoundTop">
 		<property name="Extends" value="corrugatedMetalMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property class="UpgradeBlock">
@@ -14333,7 +14008,6 @@ kind of free
 	<block id="1657" name="woodCTRpole">
 		<!-- 988 -->
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14344,7 +14018,6 @@ kind of free
 	</block>
 	<block id="1658" name="rWoodCTRpole">
 		<property name="Extends" value="rWoodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14356,7 +14029,6 @@ kind of free
 	</block>
 	<block id="1659" name="rWoodMetalCTRpole">
 		<property name="Extends" value="rWoodMetalMaster"/>
-		<property name="Weight" value="50"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14369,7 +14041,6 @@ kind of free
 	<!-- n Free -->
 	<block id="1662" name="scrapIronCTRpole">
 		<property name="Extends" value="scrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14380,7 +14051,6 @@ kind of free
 	</block>
 	<block id="1663" name="rScrapIronCTRpole">
 		<property name="Extends" value="rScrapIronMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14415,7 +14085,6 @@ kind of free
 	<block id="1669" name="concreteCTRpole">
 		<!-- 782 -->
 		<property name="Extends" value="concreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="CustomIcon" value="rConcreteCTRpole"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
@@ -14439,7 +14108,6 @@ kind of free
 	</block>
 	<block id="1673" name="rConcreteCTRpole">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14451,7 +14119,6 @@ kind of free
 	</block>
 	<block id="1674" name="steelCTRpole">
 		<property name="Extends" value="steelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14465,7 +14132,6 @@ kind of free
 	<block id="1675" name="stainlessSteelCTRpole">
 		<!-- 811 -->
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pole_square_centered"/>
@@ -14515,10 +14181,10 @@ kind of free
 			<property name="forgedIron" value="12"/>
 			<property name="mechanicalParts" value="2"/>
 			<property name="electricParts" value="2"/></property>
-		<!-- <drop event="Harvest" name="mechanicalParts" count="1,4" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="10,40" prob="1"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="mechanicalParts" count="1,4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="10,40" prob="1"/>
+		<drop event="Destroy" count="0"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="3000"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -14579,12 +14245,10 @@ kind of free
 	</block>
 	<block id="1776" name="stainlessSteelBlock">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="DowngradeBlock" value="rConcreteBlock"/>
 	</block>
 	<block id="1777" name="stainlessSteelCNRRoundTop">
 		<property name="Extends" value="stainlessSteelMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_rounded"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="77"/>
@@ -14899,7 +14563,7 @@ kind of free
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="42"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1925" name="arrowSlit">
 		<property name="IsDeveloper" value="false"/>
@@ -14910,7 +14574,7 @@ kind of free
 		<property name="ImposterExchange" value="imposterBlock" param1="2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1926" name="cntVendingMachineTrader">
 		<property name="Extends" value="cntVendingMachine"/>
@@ -14956,7 +14620,7 @@ kind of free
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="LootList" value="42"/>
 		<drop event="Harvest" name="electricParts" count="2,4" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Group" value="Science"/>
 	</block>
@@ -14976,7 +14640,6 @@ kind of free
 	<!-- n Free -->
 	<block id="1931" name="rConcreteStairs25CornerCNR">
 		<property name="Extends" value="rConcreteMaster"/>
-		<property name="Weight" value="70"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="stairs_filled_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -14987,7 +14650,6 @@ kind of free
 	</block>
 	<block id="1951" name="woodWedgeTipCNRFullBottom">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_tip_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -15006,7 +14668,6 @@ kind of free
 	</block>
 	<block id="1953" name="woodWedgeTipCNRFullTop">
 		<property name="Extends" value="woodMaster"/>
-		<property name="Weight" value="25"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="wedge60_corner"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -15041,7 +14702,7 @@ kind of free
 		<property name="Shape" value="New"/>
 		<property name="Model" value="trim01"/>
 		<property name="Texture" value="8"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1964" name="opaqueBusinessGlass">
 		<property name="Extends" value="glassBusinessCTRSheet" param1="Mesh"/>
@@ -15116,8 +14777,8 @@ kind of free
 			<property name="Item" value="concreteMix"/>
 			<property name="ItemCount" value="5"/>
 			<property name="UpgradeHitCount" value="4"/></property>
-		<!-- <drop event="Harvest" name="rockSmall" count="16"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="rockSmall" count="16"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="14"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -15281,15 +14942,14 @@ kind of free
 			<property name="mechanicalParts" value="8"/>
 			<property name="electricParts" value="8"/>
 			<property name="electronicParts" value="3"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="192" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="mechanicalParts" count="3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="192" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="forgedIron" count="3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="500"/>
 	</block>
 	<block id="2002" name="switch">
@@ -15336,12 +14996,11 @@ kind of free
 			<property name="electronicParts" value="2"/>
 			<property name="scrapPlastics" value="2"/></property>
 		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Destroy" count="0"/>
 		<drop event="Destroy" name="solarbank" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="2000"/>
 	</block>
 	<block id="2005" name="batterybank">
@@ -15366,16 +15025,15 @@ kind of free
 			<property name="electricParts" value="6"/>
 			<property name="electronicParts" value="2"/>
 			<property name="scrapPlastics" value="4"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="120" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="forgedIron" count="3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="2,3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="120" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="forgedIron" count="3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="2,3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electronicParts" count="1,2" prob="0.6" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapPlastics" count="1,2" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="1"/>
-		<!-- <property name="TakeDelay" value="15"/> -->
-		<property name="TakeDelay" value="5"/>
+		<property name="TakeDelay" value="15"/>
 		<property name="EconomicValue" value="400"/>
 	</block>
 	<block id="2006" name="electricwirerelay">
@@ -15440,9 +15098,9 @@ kind of free
 		<property class="RepairItems">
 			<property name="forgedIron" value="3"/>
 			<property name="electricParts" value="2"/></property>
-		<!-- <drop event="Harvest" name="electricParts" count="0,2" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="5,10"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="electricParts" count="0,2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="5,10"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
@@ -15465,10 +15123,10 @@ kind of free
 			<property name="forgedIron" value="2"/>
 			<property name="electricParts" value="1"/>
 			<property name="electronicParts" value="2"/></property>
-		<!-- <drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="5,10"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="5,10"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
@@ -15507,10 +15165,10 @@ kind of free
 			<property name="forgedSteel" value="16"/>
 			<property name="mechanicalParts" value="5"/>
 			<property name="electricParts" value="3"/></property>
-		<!-- <drop event="Harvest" name="mechanicalParts" count="1,4" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="1,3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20,100"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="mechanicalParts" count="1,4" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="1,3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="20,100"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
@@ -15536,10 +15194,10 @@ kind of free
 			<property name="forgedSteel" value="16"/>
 			<property name="mechanicalParts" value="3"/>
 			<property name="electricParts" value="2"/></property>
-		<!-- <drop event="Harvest" name="mechanicalParts" count="1,3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="1,2" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20,100"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="1,2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="20,100"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
@@ -15596,10 +15254,10 @@ kind of free
 			<property name="forgedIron" value="40"/>
 			<property name="mechanicalParts" value="6"/>
 			<property name="electricParts" value="4"/></property>
-		<!-- <drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20,100"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="20,100"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="Stacknumber" value="250"/>
 		<property name="TakeDelay" value="5"/>
@@ -15623,10 +15281,10 @@ kind of free
 		<property class="RepairItems">
 			<property name="electricParts" value="6"/>
 			<property name="scrapIron" value="40"/></property>
-		<!-- <drop event="Harvest" name="scrapIron" count="24" tool_category="harvestingTools"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="scrapIron" count="24" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/>
+		<drop event="Harvest" name="electricParts" count="3" tool_category="Disassemble"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="IsTerrainDecoration" value="true"/>
@@ -15753,9 +15411,9 @@ kind of free
 		<property class="RepairItems">
 			<property name="forgedIron" value="4"/>
 			<property name="electricParts" value="1"/></property>
-		<!-- <drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="5,40"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="5,40"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="62"/>
 	</block>
@@ -15776,9 +15434,9 @@ kind of free
 		<property class="RepairItems">
 			<property name="forgedIron" value="2"/>
 			<property name="electronicParts" value="1"/></property>
-		<!-- <drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/> -->
-		<!-- <drop event="Harvest" name="scrapIron" count="5,10"/> -->
-		<!-- <drop event="Destroy" count="0"/> -->
+		<drop event="Harvest" name="electronicParts" count="0,2" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="5,10"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.9" stick_chance="1"/>
 		<property name="EconomicValue" value="135"/>
 		<property name="PickupJournalEntry" value="cameraTip,triggerDelayDurationTip,passthroughTriggeringTip"/>

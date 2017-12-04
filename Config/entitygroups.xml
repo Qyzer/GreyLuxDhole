@@ -518,7 +518,7 @@
 		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieFatCopFeral" />
 		<entity name="zombieBurnt" />
-		<entity name="animalZombieBear" />
+		<entity name="animalRabidBear" />
 		<entity name="zombieWightFeral" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieFatHawaiian" />
@@ -817,7 +817,7 @@
 		<entity name="zombieBurntW6" prob="0.07"/>
 		<entity name="zombieBurntW8" prob="0.07"/>
 		<entity name="zombieBurntW9" prob="0.07"/>
-		<entity name="animalZombieBear" prob="0.1"/>
+		<entity name="animalRabidBear" prob="0.1"/>
 		<entity name="zombieWightFeral" prob="0.1"/>
 		<!-- LZC -->
 		<entity name="zombieWight" />
@@ -1123,7 +1123,7 @@
 		<entity name="zombieMaleHazmatW9" />
 		<entity name="zombieFatCop" prob="0.05"/>
 		<entity name="animalZombieDog" prob="0.05"/>
-		<entity name="animalZombieBear" prob="0.05"/>
+		<entity name="animalRabidBear" prob="0.05"/>
 		<entity name="zombieSteveCrawler" prob="0.1"/>
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
@@ -1288,7 +1288,7 @@
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="animalZombieVulture" />
-		<entity name="animalZombieBear" prob="0.15" />
+		<entity name="animalRabidBear" prob="0.15" />
 	</entitygroup>
 	<entitygroup name="FriendlyAnimalsBurntForest">
 		<!-- <entity name="invisibleAnimal" prob="6" /> -->
@@ -1326,7 +1326,7 @@
 		<entity name="animalSnake" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalZombieDog" />
-		<entity name="animalZombieBear" prob="0.15" />
+		<entity name="animalRabidBear" prob="0.15" />
 	</entitygroup>
 	<entitygroup name="ZombieDogGroup">
 		<entity name="animalZombieDog" />
@@ -1791,10 +1791,10 @@
 	</entitygroup>
 	<entitygroup name="ZombieAnimalsGroup">
 		<entity name="animalZombieDog" prob="4"/>
-		<entity name="animalZombieBear" />
+		<entity name="animalRabidBear" />
 	</entitygroup>
 	<entitygroup name="ZombieBearsGroup">
-		<entity name="animalZombieBear" />
+		<entity name="animalRabidBear" />
 	</entitygroup>
 	<entitygroup name="BanditGroup">
 		<entity name="npcBanditMelee" />

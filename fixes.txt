@@ -1,0 +1,33 @@
+Hatches and doors are broken
+give lowest level but never destroy
+
+Struts give metal  MAYBE GOOD
+
+
+
+
+
+forge only wrenchable
+does not return forge on destroy
+probably desired behavior (but need to give loot for destroy)
+
+
+
+
+
+
+
+
+
+frame give iron  Should give frame
+main give item on metal GOOD
+probably should not degrade to frame
+needs weight so can be scrapped
+
+
+
+
+
+Maybe remove TheVillage from the compopack
+
+
