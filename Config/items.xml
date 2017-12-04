@@ -564,7 +564,7 @@ Mesh files no longer used:
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,15"/>
 			<property name="BlockDamage" value="1,2"/>
-			<property name="DegradationMax" value="200,400"/>
+			<property name="DegradationMax" value="100,200"/>
 			<property name="DegradationRate" value="1,1"/>
 			<property name="DismembermentBaseChance" value="0,0.01"/></property>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -909,7 +909,7 @@ Mesh files no longer used:
 			<property name="EntityDamage" value="60,70"/>
 			<property name="BlockDamage" value="5,9.5"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/>
+			<property name="DegradationMax" value="3000,6000"/>
 			<property name="DismembermentBaseChance" value="-0.2,-0.1"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
@@ -984,7 +984,7 @@ Mesh files no longer used:
 			<property name="EntityDamage" value="60,70"/>
 			<property name="BlockDamage" value="5,9.5"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/>
+			<property name="DegradationMax" value="3000,6000"/>
 			<property name="DismembermentBaseChance" value="-0.2,-0.1"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
@@ -1250,7 +1250,7 @@ Mesh files no longer used:
 			<property name="EntityDamage" value="40,45"/>
 			<property name="BlockDamage" value="13,18"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="6250,12500"/></property>
+			<property name="DegradationMax" value="4000,8000"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
@@ -1519,7 +1519,7 @@ Mesh files no longer used:
 			<property name="Accuracy" value="5,5"/>
 			<property name="FalloffRange" value="40,72"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="2000,4000"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
@@ -1589,7 +1589,7 @@ Mesh files no longer used:
 			<property name="EntityDamage" value="60,70"/>
 			<property name="BlockDamage" value="5,9.5"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/>
+			<property name="DegradationMax" value="3000,6000"/>
 			<property name="DismembermentBaseChance" value="-0.2,-0.1"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
@@ -1663,7 +1663,7 @@ Mesh files no longer used:
 			<property name="EntityDamage" value="60,70"/>
 			<property name="BlockDamage" value="5,9.5"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/>
+			<property name="DegradationMax" value="3000,6000"/>
 			<property name="DismembermentBaseChance" value="-0.2,-0.1"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
@@ -1715,7 +1715,7 @@ Mesh files no longer used:
 			<property name="Sound_reload" value="hunting_rifle_reload"/>
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-			<property name="DamageBonus.head" value="7"/>
+			<property name="DamageBonus.head" value="9"/>
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -1736,7 +1736,7 @@ Mesh files no longer used:
 			<property name="FalloffRange" value="96,160"/>
 			<property name="DismembermentBaseChance" value="0.01,0.05"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="3500,6250"/></property>
+			<property name="DegradationMax" value="4000,8000"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
@@ -1797,6 +1797,15 @@ Mesh files no longer used:
 			<property name="Zoom_overlay" value="Items/Weapons/HUD/sniper_zoom_overlay"/>
 			<property name="Zoom_max_out" value="40"/>
 			<property name="Zoom_max_in" value="15"/></property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="120,130"/>
+			<property name="BlockDamage" value="19,25"/>
+			<property name="FalloffRange" value="96,160"/>
+			<property name="Accuracy" value="13,13"/>
+			<property name="DismembermentBaseChance" value="0.01,0.06"/>
+			<property name="DismembermentBonus" value="0,0"/>
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DegradationMax" value="3500,7000"/></property>
 		<property name="LightSource" value="lightSource"/>
 		<!-- Start: Needed for the attachment flashlight -->
 		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
@@ -1973,6 +1982,14 @@ Mesh files no longer used:
 			<property name="Class" value="Zoom"/>
 			<property name="Zoom_max_out" value="40"/>
 			<property name="Zoom_max_in" value="40"/></property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="25,42"/>
+			<property name="EntityDamage" value="54,90"/>
+			<!-- xxx is this working? -->
+			<!-- <property name="FalloffRange" value="40,70"/> -->
+			<!-- <property name="Accuracy" value="1,0.01"/> -->
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DegradationMax" value="5000,10000"/></property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 		<property name="RepairExpMultiplier" value="10.8"/>
@@ -2029,7 +2046,7 @@ Mesh files no longer used:
 			<!-- <property name="Accuracy" value="1,0.1"/> -->
 			<!-- <property name="FalloffRange" value="15,25"/> -->
 			<property name="FalloffRange" value="20,40"/>
-			<property name="DegradationMax" value="1600,3200"/>
+			<property name="DegradationMax" value="250,500"/>
 			<property name="DegradationRate" value="1,1"/></property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Shotguns"/>
@@ -2939,6 +2956,10 @@ Mesh files no longer used:
 			<property name="Upgrade_action_sound" value="nailgun_fire"/>
 			<property name="Allowed_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,nail"/>
 			<!--<property name="Restricted_upgrade_items" value="concrete"/>--></property>
+		<property class="Attributes">
+			<!-- <property name="Accuracy" value="1,0.01"/> -->
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DegradationMax" value="2000,4000"/></property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -2996,7 +3017,16 @@ Mesh files no longer used:
 			<property name="DismembermentBaseChance" value="0.01,0.03"/>
 			<property name="DismembermentBonus" value="0,0"/>
 			<property name="FalloffRange" value="2.35,2.35"/>
-			<property name="DegradationMax" value="3000,6000"/></property>
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DegradationMax" value="3000,6000"/>
+			<property name="VehicleNoise" value="1,0.1"/>
+			<property name="VehicleMaxSpeed" value="5,18"/>
+			<property name="VehicleAcceleration" value="7,14"/>
+			<property name="VehicleMetersPerLiter" value="8,12"/>
+			<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+			<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+			<property name="VehicleStartChance" value="0.5,0.99"/>
+			<property name="VehicleTankSize" value="1000, 2000"/></property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3050,7 +3080,15 @@ Mesh files no longer used:
 			<property name="BlockDamage" value="34,44"/>
 			<property name="FalloffRange" value="4,4"/>
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="3000,6000"/></property>
+			<property name="DegradationMax" value="3000,6000"/>
+			<property name="VehicleNoise" value="1,0.1"/>
+			<property name="VehicleMaxSpeed" value="5,18"/>
+			<property name="VehicleAcceleration" value="7,14"/>
+			<property name="VehicleMetersPerLiter" value="8,12"/>
+			<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+			<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+			<property name="VehicleStartChance" value="0.5,0.99"/>
+			<property name="VehicleTankSize" value="1000, 2000"/></property>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -3132,7 +3170,7 @@ Mesh files no longer used:
 	</item>
 	<!-- 136-144 -->
 	<!-- * * * * * * * * * * bows, crossbows * * * * * * * * * * -->
-	<item id="145" name="woodenBow">
+	<item id="144" name="woodenBow">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/WoodenBow/WoodenBowPrefab"/>
 		<property name="Material" value="wood"/>
 		<property name="RepairTools" value="wood"/>
@@ -3157,7 +3195,7 @@ Mesh files no longer used:
 			<property name="Crosshair_max_distance" value="30"/>
 			<!-- 30 -->
 			<property name="Magazine_size" value="1"/>
-			<property name="Magazine_items" value="arrow,metalArrow,Unload"/>
+			<property name="Magazine_items" value="arrow,metalArrow,explodingArrow,Unload"/>
 			<property name="Rays_spread" value="0.017"/>
 			<property name="Reload_time" value="0.9"/>
 			<property name="Bullet_icon" value="uzi"/>
@@ -3186,7 +3224,7 @@ Mesh files no longer used:
 		<property name="RepairExpMultiplier" value="5.5"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	</item>
-	<item id="146" name="crossbow">
+	<item id="145" name="crossbow">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="forgedIron"/>
@@ -3231,6 +3269,52 @@ Mesh files no longer used:
 		<property name="RepairExpMultiplier" value="5.5"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	</item>
+	<item id="146" name="repeatingCrossbow">
+		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="CustomIcon" value="crossbow"/>
+		<property name="CustomIconTint" value="53,53,53"/>
+		<property name="RepairTools" value="forgedIron"/>
+		<property name="HoldType" value="26"/>
+		<property name="FuelValue" value="70"/>
+		<property name="EconomicValue" value="220"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="SoundJammed" value="ItemNeedsRepair"/>
+		<property name="SoundDestroy" value="wooddestroy1"/>
+		<property name="CrosshairOnAim" value="true"/>
+		<property name="CrosshairUpAfterShot" value="true"/>
+		<property name="Sound_Sight_In" value="crossbow_sight_in"/>
+		<property name="Sound_Sight_Out" value="crossbow_sight_out"/>
+		<property class="Action0">
+			<property name="Class" value="Launcher"/>
+			<property name="Hitmask_override" value="Arrow"/>
+			<property name="Delay" value="0.8"/>
+			<property name="Crosshair_min_distance" value="30"/>
+			<property name="Crosshair_max_distance" value="30"/>
+			<property name="Magazine_size" value="6"/>
+			<property name="Magazine_items" value="metalBolt, explodingBolt, flamingBolt, Unload"/>
+			<property name="Rays_spread" value="0.012"/>
+			<property name="Reload_time" value="2"/>
+			<property name="Bullet_icon" value="uzi"/>
+			<property name="Sound_start" value="crossbow_fire"/>
+			<property name="Sound_repeat" value=""/>
+			<property name="Sound_end" value=""/>
+			<property name="Sound_empty" value="weapon_empty"/>
+			<property name="Sound_reload" value="crossbow_reload"/></property>
+		<property class="Action1">
+			<property name="Class" value="Zoom"/>
+			<property name="Zoom_max_out" value="40"/>
+			<property name="Zoom_max_in" value="40"/></property>
+		<property class="Attributes">
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DegradationMax" value="300,600"/></property>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="ActionSkillGroup" value="Archery"/>
+		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+		<property name="DescriptionKey" value="repeatingCrossbowDesc"/>		
+	</item>
 	<item id="147" name="compoundBow">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab"/>
 		<property name="Material" value="Mplastics"/>
@@ -3256,7 +3340,7 @@ Mesh files no longer used:
 			<property name="Crosshair_max_distance" value="30"/>
 			<!-- 30 -->
 			<property name="Magazine_size" value="1"/>
-			<property name="Magazine_items" value="arrow,metalArrow,flamingArrow,Unload"/>
+			<property name="Magazine_items" value="arrow,metalArrow,flamingArrow,explodingArrow,Unload"/>
 			<property name="Rays_spread" value="0.011"/>
 			<property name="Reload_time" value="0.9"/>
 			<property name="Bullet_icon" value="uzi"/>
@@ -3276,6 +3360,13 @@ Mesh files no longer used:
 			<property name="Class" value="Zoom"/>
 			<property name="Zoom_max_out" value="38"/>
 			<property name="Zoom_max_in" value="38"/></property>
+	<property class="Attributes">
+		<!-- <property name="EntityDamage" value="2,10"/> -->
+		<!-- <property name="BlockDamage" value="1,3"/> -->
+		 <!-- <property name="Accuracy" value="1,0.01"/> -->
+		<property name="DegradationRate" value="1,1"/>
+		<property name="DegradationMax" value="2000,4000"/>
+	</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="ActionSkillGroup" value="Archery"/>
 		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
@@ -4133,7 +4224,7 @@ Mesh files no longer used:
 		<property name="Weight" value="25"/>
 		<property class="Attributes">
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
 	<item id="231" name="partsMP5_receiver">
@@ -4143,7 +4234,7 @@ Mesh files no longer used:
 		<property name="Weight" value="25"/>
 		<property class="Attributes">
 			<property name="FalloffRange" value="40,72"/>
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
 	<item id="232" name="partsMP5_parts">
@@ -4156,7 +4247,7 @@ Mesh files no longer used:
 		<property class="Attributes">
 			<property name="Accuracy" value="5,5"/>
 			<!-- 10 -->
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
 	<item id="233" name="partsMP5_barrel">
@@ -4167,7 +4258,7 @@ Mesh files no longer used:
 		<property class="Attributes">
 			<property name="EntityDamage" value="24,29"/>
 			<property name="BlockDamage" value="3,5"/>
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1125"/>
 	</item>
 	<item id="236" name="partsAK47_stock">
@@ -4177,7 +4268,7 @@ Mesh files no longer used:
 		<property name="Weight" value="30"/>
 		<property class="Attributes">
 			<property name="DegradationRate" value="1,1"/>
-			<property name="DegradationMax" value="7000,14000"/>
+			<property name="DegradationMax" value="3000,6000"/>
 			<property name="DismembermentBaseChance" value="-0.2,-0.1"/></property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
@@ -4188,7 +4279,7 @@ Mesh files no longer used:
 		<property name="Weight" value="30"/>
 		<property class="Attributes">
 			<property name="FalloffRange" value="54,90"/>
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
 	<item id="238" name="partsAK47_parts">
@@ -4199,7 +4290,7 @@ Mesh files no longer used:
 		<property class="Attributes">
 			<property name="Accuracy" value="7,7"/>
 			<!-- 14.5 -->
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
 	<item id="239" name="partsAK47_barrel">
@@ -4212,7 +4303,7 @@ Mesh files no longer used:
 		<property class="Attributes">
 			<property name="EntityDamage" value="60,70"/>
 			<property name="BlockDamage" value="5,9.5"/>
-			<property name="DegradationMax" value="7000,14000"/></property>
+			<property name="DegradationMax" value="3000,6000"/></property>
 		<property name="EconomicValue" value="1500"/>
 	</item>
 	<item id="242" name="partsHuntingRifle_stock">
@@ -4877,7 +4968,7 @@ Mesh files no longer used:
 			<property name="Layer" value="3"/>
 			<property name="UISlot" value="Gloves"/></property>
 	</item>
-	<item id="372" name="leatherLeggings">
+	<item id="372" name="leatherLegArmor">
 		<!-- leatherArmor -->
 		<property name="Extends" value="leatherBoots"/>
 		<property name="FuelValue" value="40"/>
@@ -6171,7 +6262,7 @@ Mesh files no longer used:
 			<property name="Layer" value="0"/>
 			<property name="UISlot" value="Shirt"/></property>
 	</item>
-	<item id="517" name="leatherDuster">
+	<item id="516" name="leatherDuster">
 		<property name="Insulation" value="30"/>
 		<property name="Waterproof" value="0.55"/>
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -6204,6 +6295,14 @@ Mesh files no longer used:
 		<property name="ActionSkillGroup" value="Clothing/Armor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
+	</item>
+	<item id="517" name="leatherDusterRed">
+		<property name="Extends" value="leatherDuster"/>
+		<property name="CustomIcon" value="leatherDuster"/>
+		<property name="CustomIconTint" value="204,0,0"/>
+		<property name="EconomicValue" value="1200"/>
+		<property class="UMA">
+			<property name="Overlay0Tint" value="60,60,60"/></property>
 	</item>
 	<item id="518" name="leatherDusterBlack">
 		<property name="Extends" value="leatherDuster"/>
@@ -8243,7 +8342,7 @@ Mesh files no longer used:
 		<property class="Action1">
 			<property name="Skills_to_gain" value="Archery"/>
 			<!-- <property name="Recipes_to_learn" value="compoundBow,partsCompoundBow_body,partsCompoundBow_grip,partsCompoundBow_parts,partsCompoundBow_string"/> -->
-			<property name="Recipes_to_learn" value="compoundBow,crossbow"/>
+			<property name="Recipes_to_learn" value="compoundBow,repeatingCrossbow,crossbow"/>
 			<!-- <property name="Skills_to_gain" value="craftSkillWeapons"/> --></property>
 	</item>
 	<item id="920" name="crossbowSchematic">
@@ -8251,7 +8350,7 @@ Mesh files no longer used:
 		<property name="EconomicValue" value="500"/>
 		<property class="Action1">
 			<property name="Skills_to_gain" value="Archery"/>
-			<property name="Recipes_to_learn" value="crossbow,compoundBow"/>
+			<property name="Recipes_to_learn" value="crossbow,repeatingCrossbow,compoundBow"/>
 			<!-- <property name="Skills_to_gain" value="craftSkillWeapons"/> --></property>
 	</item>
 	<item id="921" name="pistolBook">

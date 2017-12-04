@@ -929,6 +929,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<!-- <ingredient name="ductTape" count="1"/> -->
 		<ingredient name="cloth" count="5"/>
 		<ingredient name="wood" count="8"/>
+	</recipe>	
+	<recipe name="repeatingCrossbow" count="1">
+		<ingredient name="forgedIron" count="20"/>
+		<ingredient name="leather" count="4"/>
+		<ingredient name="cloth" count="10"/>
+		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="destroyedStone" count="1" craft_time="2">
 		<ingredient name="rockSmall" count="18"/>
@@ -1543,6 +1549,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="leatherDuster" count="1">
 		<ingredient name="leather" count="20"/>
 	</recipe>
+	<recipe name="leatherDusterRed" count="1">
+		<ingredient name="leather" count="20"/>
+	</recipe>
 	<recipe name="leatherDusterBlack" count="1">
 		<ingredient name="leather" count="20"/>
 		<!-- <ingredient name="paint" count="1"/> -->
@@ -1556,7 +1565,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="leatherJacket" count="1">
 		<ingredient name="leather" count="10"/>
 	</recipe>
-	<recipe name="leatherLeggings" count="1">
+	<recipe name="leatherLegArmor" count="1">
 		<ingredient name="leather" count="10"/>
 	</recipe>
 	<recipe name="leatherPants" count="1">

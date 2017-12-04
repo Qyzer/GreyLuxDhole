@@ -726,6 +726,11 @@
 		<item name="metalBolt" count="10,60"/>
 		<item name="crossbowSchematic" prob="0.1"/>
 	</lootgroup>
+	<lootgroup name="repeatingCrossbow+ammo" count="all">
+		<item name="repeatingCrossbow" count="1"/>
+		<item name="metalBolt" count="10,60"/>
+		<item name="crossbowSchematic" prob="0.1"/>
+	</lootgroup>
 	<lootgroup name="compoundBow+ammo" count="all">
 		<item name="compoundBow" count="1"/>
 		<item name="steelArrow" count="10,60"/>
@@ -743,6 +748,7 @@
 		<item group="weaponsHuntingRifle+ammo" />
 		<item group="gunSportingRifle+ammo" />
 		<item group="weaponsCrossbow+ammo"/>
+		<item group="repeatingCrossbow+ammo" prob="0.15" />
 		<item group="compoundBow+ammo"/>
 		<item group="gun44Magnum+ammo" prob="0.05" />
 		<!-- <item group="weaponsMagnumParts" prob="0.05"/> -->
@@ -2041,6 +2047,7 @@
 		<!-- <item group="weaponsHuntingRifleParts" prob="1.2"/> -->
 		<item group="weaponsHuntingRifle+ammo" prob="3"/>
 		<item group="weaponsCrossbow+ammo" prob="1"/>
+		<item group="repeatingCrossbow+ammo" prob="0.15" />
 		<item name="dynamite" count="1,6" prob="1"/>
 		<item group="cowboyHatAll" prob="1"/>
 		<item group="bandanaAll" prob="1"/>
@@ -2127,6 +2134,7 @@
 		<item group="compoundBow+ammo" prob="0.2"/>
 		<!-- <item name="compoundBow" prob="0.2"/> -->
 		<item group="weaponsCrossbow+ammo" prob="0.1"/>
+		<item group="repeatingCrossbow+ammo" prob="0.05" />
 		<item name="herbalAntibiotics" prob="0.5"/>
 		<item name="herbalAntibioticsRecipe" prob="0.1"/>
 		<item group="rareOres" prob="0.05"/>

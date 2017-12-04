@@ -1499,11 +1499,18 @@ shamSandwichDesc,items,Food,KgNone,A really old sham sandwich made by Shamway. I
 vegetableStew,items,Food,KgNone,Vegetable Stew,Ragoût de légumes,Gemüseeintopf,,Guisado de verduras
 vegetableStewDesc,items,Food,KgNone,Your mom always said eat your vegetables. Now's your chance to make her happy and guess what? They're good for you.,Votre mère vous disait toujours de manger vos légumes. Vous pouvez enfin la rendre heureuse. Et devinez quoi ? Ils sont bons pour vous.,"Deine Mutter hat dir immer gesagt, dass du dein Gemüse essen sollst. Das ist die Gelegenheit, sie glücklich zu machen. Und weißt du was? Es ist gut für dich.",,"Tu mamá siempre te decía que te comieras las verduras. ¡Ahora es tu oportunidad de hacerla feliz! Además, ¿sabes qué? ¡Te hacen bien!"
 blunderbuss,items,Gun,KgNone,Blunderbuss,Tromblon,Donnerbüchse,,Trabuco
+repeatingCrossbow,items,Gun,KgNone,Repeating Crossbow,Arbalète,Armbrust,,Ballesta
+repeatingCrossbowDesc,items,Gun,KgNone,A repeating crossbow does more damage than a wooden bow. Good for hunting and not making noise. Hold reload to use alternate ammo.,"Une arbalète inflige plus de dégâts qu'un arc en bois. Idéale pour la chasse, cette arme ne fait pas de bruit. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.","Eine Armbrust verursacht mehr Schaden als ein Holzbogen. Eignet sich gut dazu, geräuschlos zu jagen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una ballesta inflige más daño que un arco de madera. Es buena para cazar y no hacer ruido. Mantén presionado recargar para usar munición alternativa.
 crossbow,items,Gun,KgNone,Crossbow,Arbalète,Armbrust,,Ballesta
 crossbowDesc,items,Gun,KgNone,A crossbow does more damage than a wooden bow. Good for hunting and not making noise. Hold reload to use alternate ammo.,"Une arbalète inflige plus de dégâts qu'un arc en bois. Idéale pour la chasse, cette arme ne fait pas de bruit. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.","Eine Armbrust verursacht mehr Schaden als ein Holzbogen. Eignet sich gut dazu, geräuschlos zu jagen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una ballesta inflige más daño que un arco de madera. Es buena para cazar y no hacer ruido. Mantén presionado recargar para usar munición alternativa.
 dynamite,items,Gun,EnChanged,Stick of Dynamite (Ammo),Bâton de dynamite,Dynamitstange (Mun),,Cartucho de dinamita
 dynamiteDesc,items,Gun,KgNone,A stick of dynamite can be lit with the secondary action & thrown with the primary action. The throwing part is very important.,Le bâton de dynamite peut être allumé avec l'action secondaire et jeté avec l'action principale. Le lancer est primordial.,Eine Dynamitstange kann mit der sekundären Aktion gezündet und mit der primären Aktion geworfen werden. Der Teil mit dem Werfen ist besonders wichtig.,,"Se puede prender un cartucho de dinamita con la acción secundaria, y lanzarlo con la acción primaria. Es muy importante lanzarlo."
 flare,items,Gun,KgNone,Flare,Fusée de détresse,Leuchtfackel,,Bengala
+gunAntiMateriel,items,Gun,KgNone,Anti-Materiel Rifle,,,,
+gunMachinePistol,items,Gun,KgNone,Machine Pistol,,,,
+gunSquadAuto762,items,Gun,KgNone,RPK,,,,
+gunSquadAuto556,items,Gun,KgNone,RPK74,,,,
+gunAutoShotgun,items,Gun,KgNone,Auto Shotgun,,,,
 gun44Magnum,items,Gun,KgNone,.44 Magnum,.44 magnum,.44 Magnum,,Magnum 44
 gun44MagnumDesc,items,Gun,KgNone,The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.,"Le .44 magnum est le roi des armes à feu. C'est le pistolet le plus puissant, mais aussi le plus bruyant. Servez-vous-en correctement pour faire plaisir à Clint.","Die .44 Magnum ist die Königin aller Handfeuerwaffen. Sie verursacht am meisten Schaden, ist aber auch am lautesten. Zieh dieses Baby und mach Clint stolz.",,"La Magnum 44 es la reina de las pistolas. Es la más poderosa, pero también la más ruidosa. Empuña esta preciosidad y haz que Clint se sienta orgulloso."
 gunAK47,items,Gun,KgNone,Battle Rifle,Fusil d'assaut AK-47,AK-47 Sturmgewehr,,Rifle de asalto AK-47
@@ -1702,6 +1709,11 @@ leadPipeDesc,items,Melee,KgNone,A lead pipe used for a club. Also good for break
 huntingKnife,items,Melee,KgNone,Hunting Knife,Couteau de chasse,Jagdmesser,,Cuchillo de caza
 huntingKnifeDesc,items,Melee,KgNone,Great for slashing zombies and gutting animals for meat.,Idéal pour taillader des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombies aufzuschlitzen und Tiere auszuweiden.",,Genial para acuchillar zombis y destripar animales para conseguir comida.
 machete,items,Melee,KgNone,Machete,Machette,Machete,,Machete
+scrapMachete,items,Melee,KgNone,Scrap Machete,Machette,Machete,,Machete
+ironMachete,items,Melee,KgNone,Iron Machete,Machette,Machete,,Machete
+Kukri,items,Melee,KgNone,Kukri,Kukri,Kukri,,Kukri
+stoneSpear,items,Melee,KgNone,Stone Spear,,,,
+ironSpear,items,Melee,KgNone,Iron Spear,,,,
 macheteDesc,items,Melee,KgNone,Great for chopping zombie limbs off and gutting animals for meat.,Idéale pour démembrer des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombiegliedmaßen abzuschlagen und Tiere auszuweiden.",,Excelente para cortarles las extremidades a los zombis y destripar animales para conseguir carne.
 battleAxe,items,Melee,KgNone,Battle Axe,,,,
 battleAxeDesc,items,Melee,KgNone,The battle axe is good for chopping up living and undead things and not so good at chopping up things that aren't living or undead,,,,
@@ -1782,6 +1794,8 @@ chainsaw,items,Tool,KgNone,Chainsaw,Tronçonneuse,Kettensäge,,Motosierra
 chainsawDesc,items,Tool,KgNone,Chop down the biggest trees or zombies faster than Paul Bunyan with this great chainsaw that uses gasoline for fuel.,Abattez les plus gros arbres et découpez du zombie plus vite que votre ombre avec cette merveilleuse tronçonneuse qui consomme du carburant.,Fälle mit dieser benzinbetriebenen Kettensäge die größten Bäume oder Zombies schneller als Paul Bunyan.,,Tala los árboles más grandes y elimina zombis más rápido que Paul Bunyan con esta magnífica motosierra que usa gasolina como combustible.
 clawHammer,items,Tool,KgNone,Claw Hammer,Arrache-clou,Klauenhammer,,Martillo de orejas
 clawHammerDesc,items,Tool,KgNone,The claw hammer is great for repairing and upgrading base walls and not bad as a weapon.,"Génial pour réparer et améliorer les murs de base, l'arrache-clou est également pas mal en tant qu'arme.","Der Klauenhammer eignet sich prima dazu, die Mauern der Basis zu reparieren und aufzuwerten. Er stellt auch eine ziemlich gute Waffe dar.",,El martillo de orejas es genial para reparar y mejorar las paredes de la base. También sirve como arma.
+woodAxe,items,Tool,KgNone,Fire Axe,,,,
+pickAxe,items,Tool,KgNone,Pick Axe,,,,
 fireaxeIron,items,Tool,KgNone,Iron Fireaxe,Hache de pompier en fer,Eiserne Feueraxt,,Hacha de bombero de hierro
 fireaxeIronDesc,items,Tool,KgNone,The fireaxe is good for harvesting wood and has a better chance to dismember than most weapons.,"Pratique pour couper du bois, la hache de pompier est également l'arme qui a le plus de chance de démembrer un adversaire.","Die Feueraxt eignet sich gut dazu, Holz zu fällen. Sie hat zudem eine erhöhte Chance, Gegner zu zergliedern.",,El hacha de bombero es buena para recolectar madera y tiene más posibilidades de desmembrar que la mayoría de armas.
 fireaxeSteel,items,Tool,KgNone,Steel Fireaxe,Hache de pompier en acier,Stählerne Feueraxt,,Hacha de bombero de acero
