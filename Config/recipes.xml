@@ -1826,7 +1826,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<!-- <ingredient name="forgedSteel" count="20"/> -->
 		<!-- <ingredient name="wood" count="10"/> -->
 	<!-- </recipe> -->
-	<recipe name="pickaxe" count="1">
+	<recipe name="pickAxe" count="1">
 		<ingredient name="forgedIron" count="30"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>

@@ -871,7 +871,7 @@
 			<prefab name="xcostum_swimmingbath(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_WulftownCD(by_WereWulfen)" max_count="1" />
 			<prefab name="xcostum_Sphinx(by_Andyjoki)" max_count="1" />
-			<prefab name="xcostum_TheVillage(by_Stallionsden)" max_count="1" />
+			<prefab name="xcostum_TheVillage(by_Stallionsden)" max_count="1" prob="0.1"/>
 		</prefab_rule>
 		<prefab_rule name="Campsites">
 			<prefab name="campsite_01" max_count="1" />
