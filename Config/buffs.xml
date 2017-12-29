@@ -181,8 +181,10 @@ built-in buff variables:
 		<modify id="1" stat="coretemp" modifyValue="10"/>
 	</buff>
 	<buff id="CoffeeSpeedBoost" duration="60" stack="extend" type="speedmodifier" icon="ui_game_symbol_coffee" name_key="caffeineBuzz" description_key="caffeineBuzzDesc" tooltip_key="caffeineBuzzTooltip" causes="coffee">
-		<modify id="0" stat="speedmodifier" modifyMaxValue="2"/>
-		<modify id="1" stat="speedmodifier" modifyValue="2"/>
+		<!-- <modify id="0" stat="speedmodifier" modifyMaxValue="2"/> -->
+		<!-- <modify id="1" stat="speedmodifier" modifyValue="2"/> -->
+		<modify id="0" stat="speedmodifier" modifyMaxValue="1.25"/>
+		<modify id="1" stat="speedmodifier" modifyValue="1.25"/>
 	</buff>
 	<buff id="megaCrushBuff" duration="120" stack="extend" type="staminaup" icon="ui_game_symbol_run" name_key="megaCrushBuffName" description_key="megaCrushBuffDesc" tooltip_key="megaCrushBuffTooltip" causes="megaCrush">
 		<modify id="0" stat="stamina" amount="10" rate="1"/>

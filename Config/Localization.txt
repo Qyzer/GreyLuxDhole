@@ -28,7 +28,7 @@ bandanaClothesGroupDesc,items,Clothes,EnChanged,Bandanas provide some protection
 hazmatShirt,items,Clothes,EnChanged,Hazmat Jacket,Chemise de protection,Schutzanzugjacke,,Camisa de material peligroso
 shadesDesc,items,Clothes,EnChanged,Sunglasses make you look cool.,Les lunettes de soleil vous donnent l'air cool et vous protègent des rayons solaires.,Mit einer Sonnenbrille siehst du cool aus.,,"Con estas gafas te ves cool, además te mantienes fresco en climas calurosos. "
 coffeeBeansDesc,items,Farming,EnChanged,Brew coffee at a campfire or craft the beans into coffee seeds.,,Braue Kaffee am Lagerfeuer oder verarbeite die Bohnen zu Kaffeesamen.,,
-foodYuccaFruitDesc,items,Food,EnChanged,Yucca fruit is edible and can be juiced to gain a bit of water. It is harvested from cacti and yucca plants.,Les fruits de yucca se mangent et peuvent être cueillis sur les cactus.,Die Yucca-Frucht ist essbar und kann von Kakteen geerntet werden.,,La yuca es comestible y se puede recoger de los cactus.
+foodYuccaFruitDesc,items,Food,EnChanged,Edible fruit can be eaten or juiced to gain a bit of water. It is harvested from cacti and other plants.,Les fruits de yucca se mangent et peuvent être cueillis sur les cactus.,Die Yucca-Frucht ist essbar und kann von Kakteen geerntet werden.,,La yuca es comestible y se puede recoger de los cactus.
 moldyBreadDesc,items,Food,EnChanged,Eat at your own risk. Can be used to craft antibiotics at a chemistry station.,,"Auf eigene Gefahr essen. Kann benutzt werden, um am Chemietisch Antibiotika zu fertigen.",,
 blunderbussDesc,items,Gun,EnChanged,A primitive muzzle loader can be crafted from mainly forged iron. Effective at very close ranges.,"Une arme primitive à chargement par la bouche peut être fabriquée à partir de tuyaux, de fer forgé, de bois et de ressorts. Efficace sur de très courtes distances.",Ein einfacher Vorderlader der hauptsächlich aus geschmiedetem Eisen gefertigt wird. Ist im Nahkampf sehr effektiv.,,"Se puede fabricar un arma de avancarga rudimentaria con tuberías, hierro forjado, madera y resortes. Eficaz a distancias muy cortas."
 gunMP5Desc,items,Gun,EnChanged,This silenced submachine gun uses 9mm ammo. Can be re-assembled and repaired if you read the schematic.,Cette formidable mitraillette nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.,"Diese schallgedämpfte Maschinenpistole verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Esta metralleta pateaculos utiliza munición de 9 mm. Se puede rearmar y reparar si lees el esquema.
@@ -516,13 +516,15 @@ rWoodCNRInside,blocks,Block,KgNone,Reinforced Wood Corner Inside,Angle intérieu
 rWoodMetalBlock,blocks,Block,KgNone,Reinforced Wood Metal Block,Bloc de métal et de bois renforcé,Metallverstärktes Holz – Block,,Bloque de metal y madera reforzado
 rWoodMetalCNRFull,blocks,Block,KgNone,Reinforced Wood Metal Corner Full,Angle complet en métal et en bois renforcé,Metallverstärktes Holz – Komplette Ecke,,Esquina de metal y madera reforzada
 rWoodMetalCNRInside,blocks,Block,KgNone,Reinforced Wood Metal Corner Inside,Angle intérieur en métal et en bois renforcé,Metallverstärktes Holz – Innenecke,,Esquina interior de metal y madera reforzada
-rWoodMetalPillar100,blocks,Block,KgNone,Reinforced Wood Metal Pillar100,Pilier 100 en métal et en bois renforcé,Metallverstärkte Holzsäule 100,,Pilar de metal y madera reforzado 100
+rWoodMetalPillar100,blocks,Block,KgNone,Reinforced Wood Metal Pillar 100,Pilier 100 en métal et en bois renforcé,Metallverstärkte Holzsäule 100,,Pilar de metal y madera reforzado 100
+rWoodMetalPillar50,blocks,Block,KgNone,Reinforced Wood Metal Pillar 50,Pilier 50 en métal et en bois renforcé,Metallverstärkte Holzsäule 50,,Pilar de metal y madera reforzado 50
 rWoodMetalPlate,blocks,Block,KgNone,Reinforced Wood Metal Plate,Plaque en bois renforcé au métal,Metallverstärkte Holzplatte,,Placa de metal y madera reforzada
 rWoodMetalPole,blocks,Block,KgNone,Reinforced Wood Metal Pole,Pilier en métal et en bois renforcé,Metallverstärkte Holzpfosten,,Poste de metal y madera reforzado
 rWoodMetalRamp,blocks,Block,KgNone,Reinforced Wood Metal Ramp,Rampe en métal et en bois renforcé,Metallverstärkte Holzrampe,,Rampa de metal y madera reforzada
 rWoodMetalSupport,blocks,Block,KgNone,Reinforced Wood Metal Support,Support en métal et en bois renforcé,Metallverstärkte Holzstütze,,Soporte de metal y madera reforzado
 rWoodMetalWedge,blocks,Block,KgNone,Reinforced Wood Metal Wedge,Pente en bois renforcé au métal,Metallverstärkte Holzschräge,,Cuña de metal y madera reforzada
 rWoodPillar100,blocks,Block,KgNone,Reinforced Wood Pillar100,Pilier 100 en bois renforcé,Verstärkte Holzsäule 100,,Pilar de madera reforzado 100
+rWoodPillar50,blocks,Block,KgNone,Reinforced Wood Pillar 50,Pilier 50 en bois renforcé,Verstärkte Holzsäule 50,,Pilar de madera reforzado 50
 rWoodPlate,blocks,Block,KgNone,Reinforced Wood Plate,Plaque en bois renforcé,Verstärkte Holzplatte,,Placa de madera reforzada
 rWoodPole,blocks,Block,KgNone,Reinforced Wood Pole,Pilier en bois renforcé,Verstärkter Holzpfosten,,Poste de madera reforzado
 rWoodRamp,blocks,Block,KgNone,Reinforced Wood Ramp,Rampe en bois renforcé,Verstärkte Holzrampe,,Rampa de madera reforzada
@@ -821,7 +823,7 @@ largeStorageGroupDesc,blocks,Container,KgNone,A very large lockable crate with a
 refrigeratorGroupDesc,blocks,Container,KgNone,If food would ever spoil then it would be a good idea to keep it in here.,"Si la nourriture périme, mieux vaut la conserver là-dedans.","Wenn Nahrung verderben würde, wäre es gut, sie hier drinnen aufzubewahren.",,Sería buena idea guardar aquí la comida que se pueda echar a perder.
 treasureChest,blocks,Container,KgNone,Treasure Chest,Coffre au trésor,Schatztruhe,,Cofre del tesoro
 mushroom01Desc,blocks,Farming,KgNone,Mushrooms can be safely eaten uncooked or used in several recipes at the campfire.,"Les champignons peuvent être consommés crus sans risque, ou utilisés dans plusieurs compositions sur le feu de camp.",Pilze können problemlos roh gegessen oder in verschiedenen Rezepten am Lagerfeuer verwendet werden.,,Las setas se pueden comer sin ningún riesgo o usarse en varias recetas en la fogata.
-plantedAloe3Harvest,blocks,Farming,KgNone,Aloe Vera Plant (Harvestable),Aloe vera,Aloe-Vera-Pflanze,,Planta de aloe vera
+plantedAloe3Harvest,blocks,Farming,KgNone,Medicinal Plant (Harvestable),Aloe vera,Aloe-Vera-Pflanze,,Planta de aloe vera
 plantedAloe3HarvestDesc,blocks,Farming,KgNone,The Aloe plant can be used to craft aloe cream.,L'aloe vera permet de fabriquer de la pommade d'aloe vera.,Aus der Aloe-Pflanze kann Aloe-Creme gefertigt werden.,,Se puede usar la planta de aloe vera para producir crema de aloe.
 plantedChrysanthemum3Harvest,blocks,Farming,KgNone,Chrysanthemum (Harvestable),Chrysanthème,Chrysantheme,,Crisantemo
 plantedChrysanthemum3HarvestDesc,blocks,Farming,KgNone,Chrysanthemum can be used to brew a cool and refreshing red tea.,Les chrysanthèmes servent à préparer du thé rouge rafraîchissant.,"Chrysantheme kann benutzt werden, um einen kühlenden und erfrischenden roten Tee zu brauen.",,Se pueden usar los crisantemos para hacer refrescante té rojo fresco.
@@ -833,8 +835,8 @@ plantedGoldenrod3Harvest,blocks,Farming,KgNone,Goldenrod Flower (Harvestable),Fl
 plantedGoldenrod3HarvestDesc,blocks,Farming,KgNone,The goldenrod flower can be used to make goldenrod tea at a campfire.,La fleur de gerbe d'or sert à préparer du thé de gerbe d'or sur un feu de camp.,Aus der Goldrutenpflanze kann am Lagerfeuer Goldrutentee hergestellt werden.,,La flor de vara de oro se puede usar para preparar té de vara de oro en la fogata.
 plantedPotato1,blocks,Farming,KgNone,Potato Seed,Graines de pomme de terre,Saatkartoffel,,Semillas de papa
 plantedPotato3Harvest,blocks,Farming,KgNone,Potato Plant (Harvestable),Pommes de terre - récoltables,Gepflanzte Kartoffel – Ernte,,Sembrado Patata - Cosecha
-plantedYucca3Harvest,blocks,Farming,KgNone,Yucca Plant (Harvestable),Yucca,Yucca-Pflanze,,Planta de yuca
-plantedYucca3HarvestDesc,blocks,Farming,KgNone,A yucca plant can be used to make yucca juice.,Le yucca sert à fabriquer du jus de yucca.,Aus der Yucca-Pflanze kann Yucca-Saft hergestellt werden.,,Se puede usar una planta de yuca para hacer zumo de yuca.
+plantedYucca3Harvest,blocks,Farming,KgNone,Edible Fruit Plant (Harvestable),Yucca,Yucca-Pflanze,,Planta de yuca
+plantedYucca3HarvestDesc,blocks,Farming,KgNone,An Edible Fruit plant can be used to make edible fruit juice.,Le yucca sert à fabriquer du jus de yucca.,Aus der Yucca-Pflanze kann Yucca-Saft hergestellt werden.,,Se puede usar una planta de yuca para hacer zumo de yuca.
 signCampFish,blocks,Sign,KgNone,Camping & Fishing,Camping et pêche,Camping & Angeln,,Acampada y pesca
 signCamping,blocks,Sign,KgNone,Camping,Camping,Camping,,Acampada
 signInfoCenter,blocks,Sign,KgNone,Information Center,Centre d'information,Informationszentrum,,Centro de información
@@ -1139,9 +1141,10 @@ buckshot,items,Ammo,KgNone,Buckshot,Chevrotine,Grober Schrot,,Perdigón
 buckshotDesc,items,Ammo,KgNone,Buckshot used to make shotgun ammo can be crafted at a forge with clay and lead after buying the shotgun shell perk.,La chevrotine utilisée pour créer des munitions de fusil à pompe peut être fabriquée à la forge avec de l'argile et du plomb une fois que vous avez acheté l'avantage de cartouches de fusil à pompe.,"Nach dem Kauf der Eigenschaft „Flintenmunition“ erfährst du, wie grober Schrot, der für die Fertigung von Schrotflintenmunition nötig ist, in der Schmiede mit Lehm und Blei gefertigt wird.",,"Una vez que hayas comprado el beneficio de cartuchos de escopeta, podrás fabricar perdigones como munición para escopetas a partir de arcilla y plomo en la fragua."
 crossbowBolt,items,Ammo,EnChanged,Crossbow Bolt (Ammo),Carreau d'arbalète,Armbrustbolzen (Mun),,Saeta para ballesta
 crossbowBoltDesc,items,Ammo,KgNone,Ammo for the crossbow. Hold reload to use alternate ammo.,Munition pour l'arbalète. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Munition für Armbrüste. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Munición para la ballesta. Mantén presionado recargar para usar munición alternativa.
+explodingArrow,items,Ammo,EnChanged,Exploding Arrow,,,,
 explodingBolt,items,Ammo,EnChanged,Exploding Crossbow Bolt (Ammo),Carreau d'arbalète explosif,Armbrust-Sprengbolzen (Mun),,Saeta explosiva para ballesta
 explodingBoltDesc,items,Ammo,KgNone,Rifle grenades gone medieval. Ages 6 and up.,Des grenades à fusil au style moyenâgeux. À partir de 6 ans.,Gewehrgranaten aus dem Mittelalter. Für 6-Jährige und älter.,,Lanzagranadas a la antigua. Para mayores de 6.
-flamingBolt,items,Ammo,EnChanged,Flaming Crossbow Bolt (Ammo),,,,
+flamingBolt,items,Ammo,EnChanged,Flaming Crossbow Bolt,,,,
 flamingBoltDesc,items,Ammo,KgNone,A flaming bolt does the most damage by setting its victims on fire. Hold reload to use alternate ammo.,,,,
 flamingArrow,items,Ammo,EnChanged,Flaming Arrow (Ammo),Flèche enflammée,Feuerpfeil (Mun),,Flecha incendiaria
 flamingArrowDesc,items,Ammo,KgNone,A flaming arrow does the most damage by setting its victims on fire. Hold reload to use alternate ammo.,"Une flèche enflammée fait le plus de dégâts, puisqu'elle embrase sa victime. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.","Ein Feuerpfeil verursacht am meisten Schaden, indem das Ziel in Brand gesetzt wird. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una flecha incendiaria inflige el máximo daño a sus víctimas cuando los prende fuego. Mantén presionado recargar para usar munición alternativa.
@@ -1155,6 +1158,8 @@ shotgunSlug,items,Ammo,EnChanged,Shotgun Slug (Ammo),Balle pour fusil à pompe,F
 shotgunSlugDesc,items,Ammo,KgNone,Can be used with long shotguns to do more damage. Can be crafted after reading the schematic. Hold reload to use alternate ammo.,À utiliser avec les fusils à pompe longs pour faire plus de dégâts. Lisez le schéma pour pouvoir en fabriquer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Können mit Schrotflinten mit langem Lauf verwendet werden, um mehr Schaden zu verursachen. Können gefertigt werden, wenn der entsprechende Bauplan gelesen wurde. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Se puede usar con escopetas largas para hacer más daño. Se puede fabricar tras leer el esquema. Mantén presionado recargar para usar munición alternativa.
 steelArrow,items,Ammo,EnChanged,Steel Arrow (Ammo),Flèche en acier,Stahlpfeil (Mun),,Flecha de acero
 steelArrowDesc,items,Ammo,KgNone,A steel arrow does more damage than the basic or iron arrow. Hold reload to use alternate ammo.,Une flèche en acier fait plus de dégâts qu'une flèche de base ou en fer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Ein Stahlpfeil verursacht mehr Schaden als gewöhnliche und Eisenpfeile. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una flecha de acero hace más daño que la flecha básica o la de hierro. Mantén presionado recargar para usar munición alternativa.
+metalArrow,items,Ammo,EnChanged,Metal Arrow,,,,
+metalBolt,items,Ammo,EnChanged,Metal Crossbow Bolt,,,,
 steelBolt,items,Ammo,EnChanged,Steel Crossbow Bolt (Ammo),Carreau d'arbalète en acier,Armbrust-Stahlbolzen (Mun),,Saeta de acero para ballesta
 steelBoltDesc,items,Ammo,KgNone,A steel crossbow bolt does more damage than the iron crossbow bolt. Hold reload to use alternate ammo.,Le carreau d'arbalète en acier inflige plus de dégâts que le carreau d'arbalète en fer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Ein Stahlbolzen für Armbrüste verursacht mehr Schaden als Eisenbolzen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una saeta de acero de ballesta hace más daño que una saeta de hierro. Mantén presionado recargar para usar munición alternativa.
 qc_AnimalGroupDesc,items,Animal Challenge Note,KgNone,A strange note I discovered in my travels. It's from the Slick Willie Clan.,Un étrange message découvert lors de mes déplacements. Il vient du clan de Willie le rusé.,"Eine seltsame Notiz, die ich auf meinen Reisen gefunden habe. Sie ist vom Klan von Slick Willie.",,Descubrí una nota extraña en mis viajes. Es del Clan de Willie el Escurridizo.
@@ -1478,9 +1483,9 @@ eggboiledDesc,items,Food,KgNone,A boiled egg can fill you up and offers a small 
 eggDesc,items,Food,KgNone,Eggs can be eaten raw but should be cooked. Used in several campfire recipes.,"Les œufs peuvent être mangés crus, mais devraient être cuits. Ils sont utilisés pour plusieurs compositions au feu de camp.","Eier können roh gegessen werden, sind gekocht aber besser. Sie finden in diversen Lagerfeuer-Rezepten Verwendung.",,"Los huevos se pueden comer crudos, pero es mejor cocinarlos. Se usan en varias recetas en la fogata."
 foodHoney,items,Food,KgNone,Jar of Honey,Pot de miel,Glas Honig,,Tarro de miel
 foodHoneyDesc,items,Food,KgNone,"Honey is one of mother nature's miracles, it restores stamina, gives wellness & can cure the first stage of an infection.","Le miel est l'un des miracles de Mère nature. Il restaure votre endurance, améliore votre bien-être et peut également traiter le début d'une infection.","Honig ist eines der Wunder von Mutter Natur. Er stellt nicht nur Ausdauer wieder her und erhöht dein Wohlbefinden, er kann auch das erste Stadium einer Infektion heilen.",,"La miel es uno de los milagros de la madre naturaleza. No solo restaura la resistencia y proporciona bienestar, sino que también cura infecciones de primer grado."
-foodYuccaFruit,items,Food,KgNone,Yucca Fruit,Yucca,Yucca-Frucht,,Yuca
-foodYuccaJuice,items,Food,KgNone,Yucca Juice,Jus de yucca,Yucca-Saft,,Jugo de yuca
-foodYuccaJuiceDesc,items,Food,KgNone,"Yucca juice can cool you, hydrate you, and give you the stamina of a sexual tyrannosaurus. ","Le jus de yucca peut vous rafraîchir, vous hydrater et vous offrir l'endurance d'un tyrannosaure en rut. ",Yucca-Saft kann dich abkühlen und hydrieren. Er gibt dir auch die Ausdauer eines sexuellen Raubtiers.,,El jugo de yuca te puede refrescar y darte tanta resistencia como la de un tiranosaurio sexual.
+foodYuccaFruit,items,Food,KgNone,Edible Fruit,Yucca,Yucca-Frucht,,Yuca
+foodYuccaJuice,items,Food,KgNone,Edible Fruit Juice,Jus de yucca,Yucca-Saft,,Jugo de yuca
+foodYuccaJuiceDesc,items,Food,KgNone,"Edible Fruit juice can cool you, hydrate you, and give you the stamina of a sexual tyrannosaurus. ","Le jus de yucca peut vous rafraîchir, vous hydrater et vous offrir l'endurance d'un tyrannosaure en rut. ",Yucca-Saft kann dich abkühlen und hydrieren. Er gibt dir auch die Ausdauer eines sexuellen Raubtiers.,,El jugo de yuca te puede refrescar y darte tanta resistencia como la de un tiranosaurio sexual.
 goldenRodTea,items,Food,KgNone,Golden Rod Tea,Thé à verge d'or,Goldrutentee,,Té de vara de oro
 goldenRodTeaDesc,items,Food,KgNone,Got dysentery? This bottle of sweet goldenrod tea will cure it.,Vous avez la dysenterie ? Cette bouteille de thé de gerbe d'or sucré vous guérira.,Hast du Dysenterie? Diese Flasche mit süßem Goldrutentee wird sie heilen.,,¿Tienes disentería? Esta botella de té de vara de oro dulce te curará.
 grainAlcohol,items,Food,KgNone,Grain Alcohol,Alcool de grain,Spiritus,,Alcohol de grano
@@ -1657,6 +1662,7 @@ shortMetalPipe,items,Item,KgNone,Short Iron Pipe,Petit tuyau en fer,Kurzes Eisen
 shortMetalPipeDesc,items,Item,KgNone,A rather ordinary short iron pipe. Can be used in a variety of recipes.,Petit tuyau en fer tout ce qu'il y a de plus banal. Peut servir dans un tas de compositions.,Ein recht gewöhnliches kurzes Eisenrohr. Kann in diversen Rezepten benutzt werden.,,Una tubería de hierro corta común y corriente. Se puede usar en varias recetas.
 spring,items,Item,KgNone,Spring,Ressort,Schraubenfeder,,Resorte
 steelArrowHead,items,Item,KgNone,Steel Arrowhead,Tête de flèche en acier,Pfeilspitze aus Stahl,,Punta de flecha de acero
+metalArrowHead,items,Item,KgNone,Metal Arrowhead,Tête de flèche en acier,Pfeilspitze aus Stahl,,Punta de flecha de acero
 steelArrowHeadDesc,items,Item,KgNone,A steel arrowhead used to craft steel-tipped arrows.,Une tête de flèche en acier utilisée pour fabriquer des flèches en acier.,Eine Pfeilspitze aus Stahl für einen Pfeil.,,Una punta de flecha de acero que se usa para fabricar flechas con punta de acero.
 tallow,items,Item,KgNone,Tallow,Suif,Talg,,Sebo
 tallowDesc,items,Item,EnChanged,Tallow can be used for candles and flaming arrows.,Le suif peut servir à fabriquer des bougies et des flèches enflammées.,Talg kann für Kerzen und Feuerpfeile verwendet werden.,,El sebo se puede usar en velas y flechas incendiarias.
@@ -1796,6 +1802,7 @@ clawHammer,items,Tool,KgNone,Claw Hammer,Arrache-clou,Klauenhammer,,Martillo de 
 clawHammerDesc,items,Tool,KgNone,The claw hammer is great for repairing and upgrading base walls and not bad as a weapon.,"Génial pour réparer et améliorer les murs de base, l'arrache-clou est également pas mal en tant qu'arme.","Der Klauenhammer eignet sich prima dazu, die Mauern der Basis zu reparieren und aufzuwerten. Er stellt auch eine ziemlich gute Waffe dar.",,El martillo de orejas es genial para reparar y mejorar las paredes de la base. También sirve como arma.
 woodAxe,items,Tool,KgNone,Fire Axe,,,,
 pickAxe,items,Tool,KgNone,Pick Axe,,,,
+scrapAxe,items,Tool,KgNone,Scrap Axe,,,,
 fireaxeIron,items,Tool,KgNone,Iron Fireaxe,Hache de pompier en fer,Eiserne Feueraxt,,Hacha de bombero de hierro
 fireaxeIronDesc,items,Tool,KgNone,The fireaxe is good for harvesting wood and has a better chance to dismember than most weapons.,"Pratique pour couper du bois, la hache de pompier est également l'arme qui a le plus de chance de démembrer un adversaire.","Die Feueraxt eignet sich gut dazu, Holz zu fällen. Sie hat zudem eine erhöhte Chance, Gegner zu zergliedern.",,El hacha de bombero es buena para recolectar madera y tiene más posibilidades de desmembrar que la mayoría de armas.
 fireaxeSteel,items,Tool,KgNone,Steel Fireaxe,Hache de pompier en acier,Stählerne Feueraxt,,Hacha de bombero de acero
@@ -3704,7 +3711,7 @@ switchDesc,blocks,Electricity,New,Used to trigger electrical events when activat
 tripwirepost,blocks,Electricity,New,Trip Wire Post,,,,
 tripwirepostDesc,blocks,Electricity,New,Wire up 2 or more of these to trigger electrical events.,,,,
 wallLight01_player,blocks,Electricity,New,Warehouse Outdoor Light,,,,
-plantedAloe1,blocks,Farming,New,Aloe Vera Seed,,Aloe Vera Samen,,
+plantedAloe1,blocks,Farming,New,Medicinal Plant Seed,,Aloe Vera Samen,,
 plantedBlueberry1,blocks,Farming,New,Blueberry Seed,,,,
 plantedCoffee1,blocks,Farming,New,Coffee Seed,,Kaffeesamen,,
 plantedCotton1,blocks,Farming,New,Cotton Seed,,,,
@@ -3713,7 +3720,7 @@ plantedGoldenrod1,blocks,Farming,New,Goldenrod Seed,,,,
 plantedHop1,blocks,Farming,New,Hop Seed,,Hopfensamen,,
 plantedHop3Harvest,blocks,Farming,New,Hop Plant (Harvestable),,,,
 plantedMushroom1,blocks,Farming,New,Mushroom Spores (Seed),,,,
-plantedYucca1,blocks,Farming,New,Yucca Seed,,,,
+plantedYucca1,blocks,Farming,New,Edible Fruit Seed,,,,
 snowberry3Harvest,blocks,Farming,New,Snowberry Plant (Harvestable),,,,
 blockcommand_close,blocks,Radial,New,Close,,Schließen,,
 blockcommand_edit,blocks,Radial,New,Edit,,Bearbeiten,,
@@ -3874,8 +3881,8 @@ skirtGreen,items,Clothes,New,Green Skirt,,,,
 skirtRed,items,Clothes,New,Red Skirt,,,,
 tshirtZUWhite,items,Clothes,New,White Football Jersey,,,,
 tshirtZUWhiteDesc,items,Clothes,New,Not even the zombie apocalypse can stop you from rooting for the boys. Go team!,,,,
-aloePlant,items,Farming,New,Aloe Vera Plant,,,,
-aloeSeed,items,Farming,New,Aloe Vera Seed,,Aloe Vera Samen,,
+aloePlant,items,Farming,New,Medicinal Plant,,,,
+aloeSeed,items,Farming,New,Medicinal Plant Seed,,Aloe Vera Samen,,
 chrysanthemumPlant,items,Farming,New,Chrysanthemum,,,,
 chrysanthemumSeed,items,Farming,New,Chrysanthemum Seed,,,,
 cottonPlant,items,Farming,New,Cotton,,,,
@@ -3884,21 +3891,21 @@ hopSeed,items,Farming,New,Hop Seed,,,,
 hopsFlower,items,Farming,New,Hops Flower,,,,
 hopsFlowerDesc,items,Farming,New,The hops flower is a critical ingredient for brewing beer.,,,,
 mushroomSeed,items,Farming,New,Mushroom Spores (Seed),,,,
-plantedAloe1Desc,items,Farming,New,Plant aloe vera seeds in fertile dirt to grow aloe vera plants.,,,,
+plantedAloe1Desc,items,Farming,New,Plant medicinal plant seeds in fertile dirt to grow medicinal plants.,,,,
 plantedChrysanthemum1,items,Farming,New,Chrysanthemum Seed,,,,
 plantedChrysanthemum1Desc,items,Farming,New,Plant chrysanthemum seeds in fertile dirt to grow chrysanthemum plants.,,,,
 plantedCoffee1Desc,items,Farming,New,Plant the seeds in fertile dirt to grow coffee plants.,,Pflanze die Samen in fruchtbare Erde um Kaffeepflanzen zu züchten.,,
 plantedHop1Desc,items,Farming,New,Plant hop seeds in fertilized dirt to grow hop plants.,,,,
 plantedMushroom1Desc,items,Farming,New,Mushroom spores can be planted on ground with a bare minimum of fertility and will grow without light.,,,,
-plantedYucca1Desc,items,Farming,New,Plant yucca seeds in fertile dirt to grow yucca plants.,,,,
+plantedYucca1Desc,items,Farming,New,Plant edible fruit seeds in fertile dirt to grow edible fruit plants.,,,,
 snowberryPlant,items,Farming,New,Snowberry,,,,
 snowberryPlantDesc,items,Farming,New,Snowberries can easily be mistaken for blueberries but are only borderline edible.,,,,
-yuccaSeed,items,Farming,New,Yucca Seed,,,,
+yuccaSeed,items,Farming,New,Edible Fruit Seed,,,,
 megaCrush,items,Food,New,Mega Crush,,,,
 megaCrushDesc,items,Food,New,Crush your enemies and your thirst with Mega Crush! It's got electrolytes!,,,,
 snowberryJuice,items,Food,New,Snowberry Juice,,,,
 snowberryJuiceDesc,items,Food,New,This drink helps you survive cold environments but should not be overused.,,,,
-yuccaCocktail,items,Food,New,Yucca Cocktail,,,,
+yuccaCocktail,items,Food,New,Edible Fruit Cocktail,,,,
 yuccaCocktailDesc,items,Food,New,Lorem ipsum dolor sit amet,,,,
 compoundBow,items,Gun,New,Compound Bow,,Compoundbogen,,
 compoundBowDesc,items,Gun,New,A compound bow does more damage and can use flaming arrows in addition to plain ones. Can be re-assembled and repaired if you read the Compound Bow book.,,"Ein Compoundbogen verschiesst neben herkömmlichen Pfeilen auch Feuerpfeile. Kann zusammengesetzt und repariert werden, wenn du das Buch „Compoundbogen“ gelesen hast.",,

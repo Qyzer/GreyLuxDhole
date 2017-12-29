@@ -499,9 +499,14 @@
 			<requirement perk_level="1" required_skill_name="craftSkillGuns" required_skill_level="2"/>
 			<recipe name="shotgunShell" unlock_level="1"/>
 		</perk>
-		<perk name="762mm Round Crafting" icon="gunsmithing" description_key="762mmRoundCraftingDesc" title_key="762mmRoundCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="3" group="firearms">
+		<perk name="Rifle Round Crafting" icon="gunsmithing" description_key="762mmRoundCraftingDesc" title_key="762mmRoundCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 			<requirement perk_level="1" required_skill_name="craftSkillGuns" required_skill_level="3"/>
-			<recipe name="762mmBullet" unlock_level="1"/>
+			<recipe name="556x45NATO" unlock_level="1"/>
+			<recipe name="545x39Soviet" unlock_level="1"/>
+			<recipe name="762x39Soviet" unlock_level="1"/>
+			<recipe name="762x51NATO" unlock_level="1"/>
+			<recipe name="3006Springfield" unlock_level="1"/>
+			<recipe name="50BMGRound" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillScience" max_level="5" skill_point_cost_multiplier="2" skill_point_cost_per_level="3" exp_to_level="5000000" icon="science" description_key="craftSkillScienceDesc" title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
 			<requirement perk_level="2" required_player_level="1"/>
