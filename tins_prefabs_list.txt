@@ -1,0 +1,57 @@
+guppyClay3.tts guppyClay3.xml 
+guppyClayFlat.tts guppyClayFlat.xml 
+guppyClayFlat2.tts guppyClayFlat2.xml 
+guppyCoal.tts guppyCoal.xml 
+guppyCoal3.tts guppyCoal3.xml 
+guppyCoalBig.tts guppyCoalBig.xml 
+guppyIron.tts guppyIron.xml 
+guppyIron3.tts guppyIron3.xml 
+guppyIronBig.tts guppyIronBig.xml 
+guppyLead.tts guppyLead.xml
+guppyLead2.tts guppyLead2.xml
+guppyPotassium.tts guppyPotassium.xml
+guppyPotassium2.tts guppyPotassium2.xml 
+guppyPotassium3.tts guppyPotassium3.xml 
+new_slp_pad.tts new_slp_pad.xml 
+TheVillage.mesh TheVillage.tts TheVillage.xml
+tinBriar.tts tinBriar.xml 
+tinHouseWhtSLPR.tts tinHouseWhtSLPR.xml 
+tinHouseWhtV2.tts tinHouseWhtV2.xml 
+tinPlainsRockSm01.tts tinPlainsRockSm01.xml 
+tinPlainsRockSm02.tts tinPlainsRockSm02.xml 
+tinPlainsRockSm03.tts tinPlainsRockSm03.xml 
+tinPlainsRockSm04.tts tinPlainsRockSm04.xml 
+tinRockForm01.tts tinRockForm01.xml 
+tinRockForm01D.tts tinRockForm01D.xml 
+tinRockform01SLPR.tts tinRockForm01SLPR.xml 
+tinWell.tts tinWell.xml 
+tinWolfDen.tts tinWolfDen.xml 
+tinWolfDen2.tts tinWolfDen2.xml 
+torchTest.tts
+
+<decoration type="prefab" name="guppyClay3" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyClayFlat" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyClayFlat2" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyCoal" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyCoal3" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyCoalBig" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyIron" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyIron3" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyIronBig" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyLead" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyLead2" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyPotassium" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyPotassium2" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="guppyPotassium3" prob="0.0001" rotatemax="4"/>
+
+
+<decoration type="prefab" name="tinPlainsRockSm01" prob="0.00375" rotatemax="4"/>
+<decoration type="prefab" name="tinPlainsRockSm02" prob="0.00375" rotatemax="4"/>
+<decoration type="prefab" name="tinPlainsRockSm03" prob="0.00375" rotatemax="4"/>
+<decoration type="prefab" name="tinPlainsRockSm04" prob="0.00375" rotatemax="4"/>
+<decoration type="prefab" name="tinWolfDen" prob="0.00375" rotatemax="4"/>
+<decoration type="prefab" name="tinWolfDen2" prob="0.00375" rotatemax="4"/>
+<decoration type="prefab" name="tinRockForm01" prob="0.001875" rotatemax="4"/>
+<decoration type="prefab" name="tinRockForm01SLPR" prob="0.001875" rotatemax="4"/>
+<decoration type="prefab" name="TinLake1" prob="0.0001" rotatemax="4"/>
+<decoration type="prefab" name="tinBriar" prob="0.005" rotatemax="4"/>

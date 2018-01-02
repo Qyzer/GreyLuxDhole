@@ -626,6 +626,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<!-- <ingredient name="forgedIron" count="16"/> -->
 		<ingredient name="barbedWireSheet" count="2"/>
 		<ingredient name="wood" count="10"/>
+		<ingredient name="electricParts" count="5"/>
+		<ingredient name="partsBattery" count="1"/>
 	</recipe>
 	<recipe name="clubIron" count="1">
 		<ingredient name="scrapIron" count="100"/>

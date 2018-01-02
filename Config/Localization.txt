@@ -1700,8 +1700,8 @@ vitamins,items,Medical,KgNone,Vitamins,Vitamines,Vitamine,,Vitaminas
 vitaminsDesc,items,Medical,KgNone,Vitamins improve your wellness and can cure early stages of dysentery.,Les vitamines améliorent votre bien-être et peuvent traiter les premiers stades de la dysenterie.,Vitamine verbessern dein Wohlbefinden und können die frühen Stadien von Dysenterie heilen.,,Las vitaminas mejoran tu bienestar y pueden curar las primeras etapas de disentería.
 stoneKnife,items,Melee,KgNone,Stone Knife,,,,
 stoneKnifeDesc,items,Melee,KgNone,This primitive makeshift weapon is also useful for gutting animals.,Cette arme de fortune primitive sert également à étriper les animaux.,"Diese primitive, behelfsmäßige Waffe ist auch nützlich zum Ausweiden von Tieren.",,Esta arma primitiva improvisada también es útil para destripar animales.
-clubBarbed,items,Melee,KgNone,Barbed Club,Massue à barbelé,Stacheldrahtknüppel,,Garrote con pinchos
-clubBarbedDesc,items,Melee,KgNone,A club with barbs. Added chance for bleeding.,Une massue ornée de barbelés. Augmente les chances d'infliger une hémorragie.,Ein Knüppel mit Stacheldraht. Erhöhte Chance auf Blutungen.,,Un garrote con pinchos. Posibilidad adicional de hemorragia.
+clubBarbed,items,Melee,KgNone,Shock Club,Massue à barbelé,Stacheldrahtknüppel,,Garrote con pinchos
+clubBarbedDesc,items,Melee,KgNone,A club with electrified barbs. Chance for shocking.,Une massue ornée de barbelés. Augmente les chances d'infliger une hémorragie.,Ein Knüppel mit Stacheldraht. Erhöhte Chance auf Blutungen.,,Un garrote con pinchos. Posibilidad adicional de hemorragia.
 clubIron,items,Melee,KgNone,Iron Reinforced Club,Massue renforcée avec du fer,Eisenverstärkter Knüppel,,Garrote reforzado con hierro
 clubIronDesc,items,Melee,KgNone,"Like a wooden club, but more durable and does more damage.","Semblable à la massue en bois, mais plus résistante et inflige plus de dégâts.","Wie ein Holzknüppel, aber widerstandsfähiger. Verursacht auch mehr Schaden.",,"Como un garrote de madera, pero con el doble de durabilidad y hace más daño."
 clubSpiked,items,Melee,KgNone,Spiked Club,Massue à pointes,Gespickter Knüppel,,Lucero del alba

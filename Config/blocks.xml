@@ -6322,10 +6322,11 @@ kind of free
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="5"/></property>
-		<property name="TraderID" value="3"/>
+		<!-- <property name="TraderID" value="3"/> -->
+		<property name="TraderID" value="1"/>
 		<property name="Stacknumber" value="10"/>
 		<property name="EconomicValue" value="2000"/>
-		<!-- <property name="Buff" value="shockedBuff"/> -->
+		<property name="Buff" value="shockedBuff"/>
 		<drop event="Harvest" name="bottledWater" count="1,6" prob="0.15" tool_category="Disassemble"/>
 		<drop event="Harvest" name="goldenRodTea" count="1,6" prob="0.15" tool_category="Disassemble"/>
 		<drop event="Harvest" name="redTea" count="1,6" prob="0.15" tool_category="Disassemble"/>
