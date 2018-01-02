@@ -558,6 +558,7 @@
 			<recipe name="pressureplate" unlock_level="2"/>
 			<recipe name="electrictimerrelay" unlock_level="2"/>
 			<recipe name="pressureplateLong" unlock_level="2"/>
+			<recipe name="clubBarbed" unlock_level="2"/>
 			<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="3"/>
 			<recipe name="motionsensor" unlock_level="3"/>
 			<recipe name="nightvisionGoggles" unlock_level="3"/>
