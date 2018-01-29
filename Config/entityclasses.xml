@@ -86,21 +86,65 @@
 		<property name="MaxTurnSpeed" value="145"/>
 		<!-- param1: 0 == attack action, 1 == use action, param2: attack length in s -->
 		<!-- <property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="30"/> with give up time -->
-		<property name="AITask-1" value="BreakDoor"/>
-		<property name="AITask-2" value="BreakBlock"/>
-		<property name="AITask-3" value="Territorial"/>
-		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
-		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC"/>
-		<property name="AITask-6" value="ApproachSpot"/>
-		<property name="AITask-7" value="Wander"/>
-		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityNPC"/>
-		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
-		<property name="AITarget-3" value="BlockingTargetTask"/>
-		<property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer"/>
-		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityNPC"/>
-		<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+		<!-- <property name="AITask-1" value="BreakDoor"/> -->
+		<!-- <property name="AITask-2" value="BreakBlock"/> -->
+		<!-- <property name="AITask-3" value="Territorial"/> -->
+		<!-- <property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/> -->
+		<!-- <property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC"/> -->
+		<!-- <property name="AITask-6" value="ApproachSpot"/> -->
+		<!-- <property name="AITask-7" value="Wander"/> -->
+		<!-- <property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityNPC"/> -->
+		<!-- <property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityPlayer"/> -->
+		<!-- <property name="AITarget-3" value="BlockingTargetTask"/> -->
+		<!-- <property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer"/> -->
+		<!-- <property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityNPC"/> -->
+		<!-- <property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityPlayer"/> -->
 		<!--property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalBear" /-->
 		<!--property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" /-->
+		<!-- AI Targets and Tasks -->
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityEnemyAnimal"/>
+		<property name="AITask-1" value="BreakBlock"/>
+		<property name="AITask-2" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityEnemyAnimal" param2="0"/>
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC"/>
+		<property name="AITask-4" value="BreakBlock"/>
+		<property name="AITask-5" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityNPC" param2="0"/>
+		<property name="AITarget-3" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
+		<property name="AITask-7" value="BreakBlock"/>
+		<property name="AITask-8" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-9" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="0"/>
+		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityEnemyAnimal"/>
+		<property name="AITask-10" value="BreakBlock"/>
+		<property name="AITask-11" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-12" value="ApproachAndAttackTarget" param1="EntityEnemyAnimal" param2="0"/>
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityAnimalStag"/>
+		<property name="AITask-13" value="BreakBlock"/>
+		<property name="AITask-14" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-15" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="0"/>
+		<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityNPC"/>
+		<property name="AITask-16" value="BreakBlock"/>
+		<property name="AITask-17" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-18" value="ApproachAndAttackTarget" param1="EntityNPC" param2="0"/>
+		<property name="AITarget-7" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+		<property name="AITask-19" value="BreakBlock"/>
+		<property name="AITask-20" value="RangedAttackTarget" param1="0" param2="0"/>
+		<property name="AITask-21" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="0"/>
+		<property name="AITask-22" value="ApproachSpot"/>
+		<property name="AITask-23" value="Wander"/>
+		<property class="MechanimAttackTriggers">
+			<property name="state0" value="AttackTrigger"/></property>
+		<property class="MechanimAttackStates">
+			<property name="state0" value="Attack"/>
+			<property name="state1" value="AttackStandingStill"/></property>
+		<property class="MechanimPainTriggers">
+			<property name="state0" value="PainTrigger"/></property>
+		<property class="MechanimPainStates">
+			<property name="state0" value="Pain"/></property>
+		<property class="MechanimDeathTriggers">
+			<property name="state0" value="DeathTrigger"/></property>
+		<property class="MechanimDeathStates">
+			<property name="state0" value="Death"/></property>
 		<property name="MaxHealth" value="150"/>
 		<!-- <property name="MaxViewAngle" value="180"/> -->
 		<property name="MaxViewAngle" value="300"/>
@@ -116,10 +160,10 @@
 		<property name="IsEnemyEntity" value="true"/>
 		<!-- Stealth settings -->
 		<!-- <property name="SightRange" value="30"/> -->
-		<property name="SightRange" value="45"/>
+		<property name="SightRange" value="90"/>
 		<!-- distance in m -->
 		<!-- <property name="SightScale" value="-2,150"/> -->
-		<property name="SightScale" value="-25,125"/>
+		<property name="SightScale" value="-25,150"/>
 		<!-- how well lit you have to be for the zombie to see you at min,max range -->
 		<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
 		<!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
@@ -133,7 +177,7 @@
 		<property name="SleeperNoiseWakeThreshold" value="20,20"/>
 		<property name="SleeperSmellSenseThreshold" value="20,50"/>
 		<!-- Indiv.Random. smell capability - "I smell something" player smell value -->
-		<property name="SoundSleeperSenseChance" value=".5"/>
+		<property name="SoundSleeperSenseChance" value="0.5"/>
 		<!-- the chance to play "SoundSleeperSense" when "SleeperSmellSenseThreshold" is triggered -->
 		<property name="SleeperSmellWakeThreshold" value="40,100"/>
 		<property name="NoiseAlertThreshold" value="30"/>
@@ -2340,6 +2384,146 @@
 		<drop event="Harvest" name="leather" tool_category="Butcher" count="7"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6"/>
 		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
+	</entity_class>
+	<entity_class name="animalBoarHostile" extends="animalTemplateHostile">
+		<property name="AvatarController" value="AvatarAnimalController"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="HasRagdoll" value="true"/>
+		<property name="PhysicsBody" value="boar"/>
+		<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
+		<property name="HandItem" value="handAnimalWolf"/>
+		<property name="MaxHealth" value="90"/>
+		<property name="HasDeathAnim" value="true"/>
+		<property name="RootMotion" value="true"/>
+		<property name="RagdollOnDeathChance" value=".5"/>
+		<property name="WanderSpeed" value="0.2"/>
+		<property name="PanicSpeed" value="2.0"/>
+		<property name="ApproachSpeed" value="1.3"/>
+		<property name="NightWanderSpeed" value="0.2"/>
+		<property name="NightApproachSpeed" value="1.3"/>
+		<property name="SoundRandom" value="Animals/Boar/boarroam"/>
+		<property name="SoundAlert" value="Animals/Boar/boaralert"/>
+		<property name="SoundHurt" value="Animals/Boar/boarpain"/>
+		<property name="SoundDeath" value="Animals/Boar/boardeath"/>
+		<property name="SoundAttack" value="Animals/Boar/boarattack"/>
+		<property name="SoundSense" value="Animals/Boar/boarsense"/>
+		<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
+        <property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="Territorial" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="20" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC" param2="20" />
+		<property name="AITask-6" value="ApproachSpot" />
+		<property name="AITask-7" value="Wander" />
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityPlayer" />
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC" />
+		<property name="AITarget-3" value="BlockingTargetTask" />
+		<property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+		<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityNPC" />
+		<property name="ExperienceGain" value="1500"/>
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="5"/>
+		<!-- animalBoar -->
+		<drop event="Harvest" name="leather" tool_category="Butcher" count="7"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="6"/>
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
+	</entity_class>
+	<!-- JZMod animals -  Forum states freely sharing this-->
+	<entity_class name="animalStagHostile" extends="animalTemplateHostile">
+		<property name="HasRagdoll" value="true" />
+		<property name="Mesh" value="Animals/Stag/STAG" />
+		<property name="ModelType" value="Standard" />
+		<property name="Prefab" value="NPC" />
+		<property name="Class" value="EntityAnimalStag" />
+		<property name="Parent" value="Animals" />
+		<property name="AvatarController" value="GameObjectAnimalAnimation" />
+		<property name="Weight" value="70" />
+		<property name="RotateToGround" value="true" />
+		<property name="IsEntityAnimal" value="true" />
+		<property name="PhysicsBody" value="Stag" />
+		<property name="HandItem" value="handBuck" />
+		<property name="Faction" value="animals" />
+		<property name="CanClimbLadders" value="false" />
+		<property name="MaxHealth" value="200" />
+		<property name="MaxViewAngle" value="300" />
+		<property name="WanderSpeed" value="0.7" />
+		<property name="PanicSpeed" value="2.0" />
+		<property name="SurfaceCategory" value="organic" />
+		<property name="ParticleOnDeath" value="blood_death" />
+		<property name="SoundHurt" value="Animals/stagpain" />
+		<property name="SoundDeath" value="Animals/stagdeath" />
+		<property name="TimeStayAfterDeath" value="300" />
+		<property name="IsEnemyEntity" value="false" />
+		<property name="ExperienceGain" value="350" />
+		<property name="HasRagdoll" value="true" />
+		<drop event="Harvest" name="leather" tool_category="Butcher" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
+	</entity_class>
+	<entity_class name="animalRabbitHostile" extends="animalTemplateHostile">
+		<property name="Mesh" value="Animals/Rabbit/RABBIT" />
+		<property name="Class" value="EntityAnimalRabbit" />
+        <property name="Parent" value="Zombie" />
+		<property name="Weight" value="10" />
+		<property name="MaxHealth" value="50" />
+		<property name="PhysicsBody" value="rabbit" />
+		<property name="HandItem" value="rabbitAttack" />
+		<property name="SoundHurt" value="Animals/rabbitpain" />
+		<property name="SoundDeath" value="Animals/rabbitdeath" />
+      	<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert" />
+		<property name="PanicSpeed" value="1.5" />
+		<property name="CorpseBlockChance" value="0" />
+		<property name="ExperienceGain" value="200" />
+		<property name="SwimOffset" value="2" />
+		<property name="Faction" value="undead" />
+		<property name="HasRagdoll" value="true" />
+		<property name="DeadBodyHitPoints" value="175" />
+        <property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="Territorial" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="20" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC" param2="20" />
+		<property name="AITask-6" value="ApproachSpot" />
+		<property name="AITask-7" value="Wander" />
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityPlayer" />
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC" />
+		<property name="AITarget-3" value="BlockingTargetTask" />
+		<property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+		<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityNPC" />
+		<drop event="Harvest" name="leather" tool_category="Butcher" count="2"/>
+	</entity_class>
+	<entity_class name="animalChickenHostile" extends="animalTemplateHostile">
+		<property name="Mesh" value="Animals/CHICKEN/chickenPrefab" />
+		<property name="Class" value="EntityAnimalRabbit" />
+		<property name="Parent" value="Zombie" />
+		<property name="Weight" value="10" />
+		<property name="MaxHealth" value="50" />
+		<property name="PhysicsBody" value="chicken" />
+		<property name="HandItem" value="rabbitAttack" />
+		<property name="SoundHurt" value="Animals/Chicken/chickenpain" />
+		<property name="SoundDeath" value="Animals/Chicken/chickendeath" />
+        <property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert" />
+		<property name="PanicSpeed" value="1" />
+		<property name="CorpseBlockChance" value="0" />
+		<property name="ExperienceGain" value="50" />
+		<property name="SwimOffset" value="2" />
+		<property name="Faction" value="undead" />
+		<property name="HasRagdoll" value="true" />
+		<property name="DeadBodyHitPoints" value="175" />
+        <property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="Territorial" param1="10" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="20" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityNPC" param2="20" />
+		<property name="AITask-6" value="ApproachSpot" />
+		<property name="AITask-7" value="Wander" />
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityPlayer" />
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC" />
+		<property name="AITarget-3" value="BlockingTargetTask" />
+		<property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer" />
+		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+		<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityNPC" />
+		<drop event="Harvest" name="feather" tool_category="Butcher" count="30"/>
 	</entity_class>
 	<!-- VEHICLES -->
 	<entity_class name="supplyPlane">

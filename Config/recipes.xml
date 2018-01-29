@@ -641,7 +641,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="wood" count="6"/>
 	</recipe>
 	<recipe name="leadPipe" count="1">
-		<ingredient name="scrapLead" count="10"/>
+		<ingredient name="scrapLead" count="20"/>
+		<ingredient name="scrapIron" count="100"/>
+		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="fireClub" count="1">
 		<ingredient name="forgedIron" count="20"/>
@@ -1465,12 +1467,46 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="potassiumNitratePowder" count="1"/>
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
+	<recipe name="herbalAntibiotics" count="1" craft_area="chemistryStation">
+		<ingredient name="blueberries" count="2"/>
+		<ingredient name="mushrooms" count="1"/>
+		<ingredient name="chrysanthemumPlant" count="1"/>
+		<ingredient name="potassiumNitratePowder" count="1"/>
+		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="herbalAntibiotics" count="1" craft_area="campfire" craft_tool="cookingPot">
+		<ingredient name="blueberries" count="5"/>
+		<ingredient name="mushrooms" count="3"/>
+		<ingredient name="chrysanthemumPlant" count="3"/>
+		<ingredient name="potassiumNitratePowder" count="3"/>
+		<ingredient name="bottledRiverWater" count="1"/>
+	</recipe>
 	<recipe name="herbalAntibiotics" count="1" craft_area="campfire" craft_tool="cookingPot">
 		<ingredient name="blueberries" count="5"/>
 		<ingredient name="mushrooms" count="3"/>
 		<ingredient name="chrysanthemumPlant" count="3"/>
 		<ingredient name="potassiumNitratePowder" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="healingSalve" count="1" craft_area="campfire" craft_tool="cookingPot">
+		<ingredient name="mushrooms" count="3"/>
+		<ingredient name="blueberries" count="3"/>
+	</recipe>
+	<recipe name="bloodstopSalve" count="1" craft_area="campfire" craft_tool="cookingPot">
+		<ingredient name="mushrooms" count="1"/>
+	</recipe>
+	<recipe name="firstAidSalve" count="1" craft_area="campfire" craft_tool="cookingPot">
+		<ingredient name="mushrooms" count="3"/>
+		<ingredient name="coffeeBeans" count="1"/>
+	</recipe>
+	<recipe name="herbalPainkillers" count="1" craft_area="campfire" craft_tool="cookingPot">
+		<ingredient name="mushrooms" count="5"/>
+		<ingredient name="blueberries" count="5"/>
+		<ingredient name="chrysanthemumPlant" count="3"/>
+	</recipe>
+	<recipe name="quickCureSalve" count="1" craft_area="campfire" craft_tool="cookingPot">
+		<ingredient name="mushrooms" count="10"/>
+		<ingredient name="bloodBag" count="1"/>
 	</recipe>
 	<recipe name="hoeIron" count="1">
 		<ingredient name="forgedIron" count="16"/>

@@ -172,12 +172,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -208,7 +208,7 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="rockResource02" prob =".025" rotatemax="3"/>
 					<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
 					<decoration type="block" blockname="lootForestHelper" prob="0.001"/>
-					<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.003"/>
+					<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0075"/>
 					<decoration type="block" blockname="snowberry3Harvest" prob =".1" />
 					<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".4" />
 				</decorations>
@@ -246,12 +246,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -280,9 +280,11 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="rock07" prob =".001" />
 					<decoration type="block" blockname="rockResource" prob =".025" rotatemax="3"/>
 					<decoration type="block" blockname="rockResource02" prob =".025" rotatemax="3"/>
+					<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
 					<decoration type="block" blockname="lootForestHelper" prob="0.001"/>
-					<decoration type="block" blockname="snowberry3Harvest" prob =".001" />
-					<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".04" />
+					<decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.0075"/>
+					<decoration type="block" blockname="snowberry3Harvest" prob =".1" />
+					<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".4" />
 				</decorations>
 			</subbiome>
 			<subbiome prob="0.1551">
@@ -387,12 +389,12 @@ If you do not declare them, the decorations of the main biome are used.
 			<!-- random prob_min,_max per chunk where 0 equals no decoration and 256 means on every block -->
 			<!-- Decorations Main: Snow -->
 			<decorations>
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -476,12 +478,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -499,6 +501,8 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="guppyPotassium3" prob="0.0003" rotatemax="4"/>
 					<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.008"/>
 					<decoration type="block" blockname="plantedCotton3Harvest" prob="0.07"/>
+					<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+					<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 					<decoration type="block" blockname="rock01" prob =".01" />
 					<decoration type="block" blockname="rock02" prob =".01" />
 					<decoration type="block" blockname="rock04" prob =".01" />
@@ -615,12 +619,12 @@ If you do not declare them, the decorations of the main biome are used.
 			<!-- Decorations Main: Maple Forest -->
 			<decorations>
 				<decoration type="block" blockname="lootForestHelper" prob="0.00025"/>
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -640,7 +644,9 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="prefab" name="rock_form01" prob=".01" rotatemax="7"/>
 				<!-- <decoration type="prefab" name="resource_lead_pile" prob=".0007" rotatemax="7"/> -->
 				<decoration type="prefab" name="resource_lead_pile" prob=".001" rotatemax="7"/>
-				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.003"/>
+				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.0075"/>
+				<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 				<decoration type="block" blockname="rock01" prob=".005"/>
 				<decoration type="block" blockname="rock02" prob=".005"/>
 				<decoration type="block" blockname="rock04" prob=".005"/>
@@ -737,12 +743,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -760,6 +766,8 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="guppyPotassium3" prob="0.0003" rotatemax="4"/>
 					<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.008"/>
 					<decoration type="block" blockname="plantedCotton3Harvest" prob="0.07"/>
+					<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+					<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 					<decoration type="block" blockname="rock01" prob =".01" />
 					<decoration type="block" blockname="rock02" prob =".01" />
 					<decoration type="block" blockname="rock04" prob =".01" />
@@ -802,12 +810,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -825,6 +833,8 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="guppyPotassium3" prob="0.0003" rotatemax="4"/>
 					<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.008"/>
 					<decoration type="block" blockname="plantedCotton3Harvest" prob="0.07"/>
+					<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+					<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 					<decoration type="block" blockname="rock01" prob =".01" />
 					<decoration type="block" blockname="rock02" prob =".01" />
 					<decoration type="block" blockname="rock04" prob =".01" />
@@ -934,12 +944,12 @@ If you do not declare them, the decorations of the main biome are used.
 			<!-- Decorations Main: Pine Forest -->
 			<decorations>
 				<decoration type="block" blockname="lootForestHelper" prob="0.000125"/>
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -960,6 +970,8 @@ If you do not declare them, the decorations of the main biome are used.
 				<!-- <decoration type="prefab" name="resource_lead_pile" prob=".0007" rotatemax="7"/> -->
 				<decoration type="prefab" name="resource_lead_pile" prob=".001" rotatemax="7"/>
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+				<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 				<decoration type="block" blockname="rock01" prob =".001" />
 				<decoration type="block" blockname="rock02" prob =".001" />
 				<decoration type="block" blockname="rock04" prob =".001" />
@@ -1034,12 +1046,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1099,12 +1111,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1230,12 +1242,12 @@ If you do not declare them, the decorations of the main biome are used.
 			<!-- Decorations Main: Plains -->
 			<decorations>
 				<!--<decoration type="prefab" name="bluff01" prob =".2" rotatemax="7" />-->
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1267,7 +1279,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="lootPlainsHelper" prob="0.000125"/>
 				<decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002"/>
 				<decoration type="block" blockname="treeDesertShrub" prob ="0.007" />
-				<decoration type="block" blockname="treeDeadShrub" prob ="0.0005" />
+				<decoration type="block" blockname="treeDeadShrub" prob ="0.005" />
 				<!-- <decoration type="block" blockname="cntBirdnest" prob ="0.0009" /> -->
 				<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
 				<decoration type="block" blockname="treeCactus04" prob ="0.0025" rotatemax="3"/>
@@ -1310,12 +1322,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1373,12 +1385,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="resource_coal_pile" prob=".0015" rotatemax="7"/>
 					<decoration type="prefab" name="resource_nitrate_pile" prob=".0015" rotatemax="7"/>
 					<decoration type="prefab" name="resource_lead_pile" prob=".0015" rotatemax="7"/>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1444,12 +1456,12 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="prefab" name="desert_arch" prob=".00009" rotatemax="7"/>
 				<decoration type="prefab" name="TinLake1" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="pond01" prob="0.0003" rotatemax="4"/>
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1530,12 +1542,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1584,12 +1596,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1702,12 +1714,12 @@ If you do not declare them, the decorations of the main biome are used.
 			<spectrum name="pine_forest" />
 			<!-- Decorations Main: Water -->
 			<decorations>
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1723,7 +1735,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="prefab" name="guppyPotassium" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyPotassium2" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyPotassium3" prob="0.0003" rotatemax="4"/>
-				<decoration type="block" blockname="treeAzalea" prob="0.003" rotatemax="3"/>
+				<decoration type="block" blockname="treeAzalea" prob="0.0075" rotatemax="3"/>
 				<decoration type="block" blockname="lootStreetHelper" prob=".00035" rotatemax="3"/>
 				<decoration type="block" blockname="rock01" prob="0.003" rotatemax="3"/>
 				<decoration type="block" blockname="rock02" prob=".005" rotatemax="3"/>
@@ -1740,6 +1752,8 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="randomCarsHelper" prob="0.002" rotatemax="3"/>
 				<!-- <decoration type="block" blockname="treeBrownGrassDiagonal" prob =".15" /> -->
 				<!-- <decoration type="block" blockname="treeTallGrassDiagonal" prob =".35" /> -->
+				<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob =".015" />
 				<decoration type="block" blockname="treeTallGrassDiagonal" prob =".035" />
 			</decorations>
@@ -1761,12 +1775,12 @@ If you do not declare them, the decorations of the main biome are used.
 			</layers>
 			<!-- Decorations Main: Radiated -->
 			<decorations>
-				<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-				<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+				<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -1792,7 +1806,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="treeBurntPine03" prob="0.001" rotatemax="7"/>
 				<decoration type="block" blockname="treeMountainPineDry" prob="0.001" rotatemax="7"/>
 				<decoration type="block" blockname="treeDeadShrub" prob="0.001" rotatemax="7"/>
-				<decoration type="block" blockname="treeDeadTree02" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeDeadTree02" prob="0.0075" rotatemax="7"/>
 				<decoration type="block" blockname="cntCar03SedanDamage2" prob="0.009" rotatemax="3"/>
 				<decoration type="block" blockname="randomCarsHelper" prob="0.009" rotatemax="3"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob =".005" />
@@ -1850,12 +1864,12 @@ If you do not declare them, the decorations of the main biome are used.
 				</layers>
 				<decorations>
 					<decoration type="block" blockname="randomCarsHelper" prob="0.5" rotatemax="3"/>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -2113,12 +2127,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="prefab" name="resource_oilshale_pile" prob=".002" rotatemax="7"/>
 					<decoration type="prefab" name="resource_nitrate_pile" prob=".002" rotatemax="7"/>
 					<decoration type="prefab" name="resource_coal_pile" prob=".002" rotatemax="7"/>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -2138,6 +2152,8 @@ If you do not declare them, the decorations of the main biome are used.
 					<decoration type="block" blockname="rockResource02" prob =".0025" rotatemax="3"/>
 					<!-- <decoration type="prefab" name="resource_coal_pile" prob=".0007" rotatemax="7"/> -->
 					<decoration type="prefab" name="resource_coal_pile" prob=".0015" rotatemax="7"/>
+					<decoration type="block" blockname="mushroom01" prob="0.001" rotatemax="7"/>
+					<decoration type="block" blockname="mushroom02" prob="0.001" rotatemax="7"/>
 					<decoration type="block" blockname="treeDeadShrub" prob="0.01" rotatemax="7"/>
 					<decoration type="block" blockname="treeDeadTree02" prob="0.01" rotatemax="7"/>
 					<decoration type="block" blockname="cntTrashPile01" prob="0.007" rotatemax="7"/>
@@ -2181,12 +2197,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -2330,18 +2346,18 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="rockResource" prob =".0005" rotatemax="3"/>
 				<decoration type="block" blockname="rockResource02" prob =".0005" rotatemax="3"/>
 				<decoration type="block" blockname="cntBirdnest" prob ="0.002" />
-				<decoration type="block" blockname="treeBurntPine01" prob="0.003" rotatemax="7"/>
-				<decoration type="block" blockname="treeBurntPine02" prob="0.003" rotatemax="7"/>
-				<decoration type="block" blockname="treeBurntPine03" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeBurntPine01" prob="0.0075" rotatemax="7"/>
+				<decoration type="block" blockname="treeBurntPine02" prob="0.0075" rotatemax="7"/>
+				<decoration type="block" blockname="treeBurntPine03" prob="0.0075" rotatemax="7"/>
 				<decoration type="block" blockname="treeDeadShrub" prob="0.001" rotatemax="7"/>
 				<decoration type="block" blockname="treeDeadTree01" prob="0.002" rotatemax="7"/>
-				<decoration type="block" blockname="treeDeadTree02" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeDeadTree02" prob="0.0075" rotatemax="7"/>
 				<decoration type="prefab" name="houseburnt_deco1" prob=".009" />
 				<decoration type="prefab" name="houseburnt_deco2" prob=".009" />
-				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+				<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+				<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 				<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 				<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 				<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>
@@ -2631,12 +2647,12 @@ If you do not declare them, the decorations of the main biome are used.
 					<layer depth="3" blockname="bedrock" />
 				</layers>
 				<decorations>
-					<decoration type="prefab" name="houseburnt_deco1" prob="0.003" />
-					<decoration type="prefab" name="houseburnt_deco2" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.003" />
-					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.003" />
+					<decoration type="prefab" name="houseburnt_deco1" prob="0.0075" />
+					<decoration type="prefab" name="houseburnt_deco2" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.0075" />
+					<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.0075" />
 					<decoration type="prefab" name="waste_rubble_highway_01" prob=".0009" />
 					<decoration type="prefab" name="guppyClay3" prob="0.0003" rotatemax="4"/>
 					<decoration type="prefab" name="guppyClayFlat" prob="0.0003" rotatemax="4"/>

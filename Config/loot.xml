@@ -808,7 +808,7 @@
 		<item name="augerSchematic"/>
 		<item name="chainsawSchematic"/>
 		<item name="fireClubSchematic"/>
-		<item name="explodingBoltSchematic"/>
+		<item name="explodingCrossbowBoltSchematic"/>
 		<item name="firstAidKitSchematic"/>
 		<item name="flamingArrowSchematic"/>
 		<item name="gasCanSchematic"/>
@@ -2077,6 +2077,13 @@
 		<item name="bottledWater" count="1,3" prob="1"/>
 		<!-- <item name="oldCash" count="2,15" prob="1"/> -->
 		<item name="paper" count="1,25" prob="1"/>
+		<item name="herbalAntibiotics" prob="0.5"/>
+		<item name="healingSalve" prob="0.5"/>
+		<item name="bloodstopSalve" prob="0.5"/>
+		<item name="firstAidSalve" prob="0.5"/>
+		<item name="quickCureSalve" prob="0.5"/>
+		<item name="herbalPainkillers" prob="0.5"/>
+		<item name="herbalAntibioticsRecipe" prob="0.15"/>
 		<item group="treasureMaps" count="1" prob="1"/>
 	</lootcontainer>
 	<!-- ZombieMiner
@@ -2115,6 +2122,13 @@
 		<item name="minibikeSeat" prob="0.4"/>
 		<item name="minibikeHandlebars" prob="0.4"/>
 		<item name="smallEngine" prob="0.3"/>
+		<item name="herbalAntibiotics" prob="0.5"/>
+		<item name="healingSalve" prob="0.5"/>
+		<item name="bloodstopSalve" prob="0.5"/>
+		<item name="firstAidSalve" prob="0.5"/>
+		<item name="quickCureSalve" prob="0.5"/>
+		<item name="herbalPainkillers" prob="0.5"/>
+		<item name="herbalAntibioticsRecipe" prob="0.15"/>
 		<item group="books" prob="0.1"/>
 	</lootcontainer>
 	<!-- ZombieStripper -->
@@ -2127,7 +2141,12 @@
 		<item name="painkillers"/>
 		<item name="vitamins"/>
 		<item name="herbalAntibiotics" prob="0.5"/>
-		<item name="herbalAntibioticsRecipe" prob="0.1"/>
+		<item name="healingSalve" prob="0.5"/>
+		<item name="bloodstopSalve" prob="0.5"/>
+		<item name="firstAidSalve" prob="0.5"/>
+		<item name="quickCureSalve" prob="0.5"/>
+		<item name="herbalPainkillers" prob="0.5"/>
+		<item name="herbalAntibioticsRecipe" prob="0.15"/>
 		<item name="feather" count="5,25"/>
 		<item name="facialPiercings" prob="0.2"/>
 	</lootcontainer>
@@ -2148,7 +2167,12 @@
 		<item group="weaponsCrossbow+ammo" prob="0.1"/>
 		<item group="repeatingCrossbow+ammo" prob="0.05" />
 		<item name="herbalAntibiotics" prob="0.5"/>
-		<item name="herbalAntibioticsRecipe" prob="0.1"/>
+		<item name="healingSalve" prob="0.5"/>
+		<item name="bloodstopSalve" prob="0.5"/>
+		<item name="firstAidSalve" prob="0.5"/>
+		<item name="quickCureSalve" prob="0.5"/>
+		<item name="herbalPainkillers" prob="0.5"/>
+		<item name="herbalAntibioticsRecipe" prob="0.15"/>
 		<item group="rareOres" prob="0.05"/>
 		<item group="books" prob="0.1"/>
 	</lootcontainer>
@@ -2317,7 +2341,7 @@
 		<item group="labEquipment" count="1" prob="16"/>
 		<item name="paper" count="5,15"/>
 		<item name="herbalAntibiotics" prob="0.15"/>
-		<item name="herbalAntibioticsRecipe" prob="0.1"/>
+		<item name="herbalAntibioticsRecipe" prob="0.15"/>
 		<item group="books" prob="0.1"/>
 	</lootcontainer>
 	<!-- cntCollapsedBatterybank -->

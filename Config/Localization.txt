@@ -1187,8 +1187,8 @@ fireClubSchematic,items,Book,KgNone,Fire Club Schematic,Schéma de massue à poi
 fireClubSchematicDesc,items,Book,KgNone,Learn how to make a fire club by reading this schematic.,Apprenez à fabriquer une massue à pointes en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Nagelkeulen gefertigt werden.",,Lee este esquema para aprender a elaborar un lucero del alba.
 crossbowSchematic,items,Book,KgNone,Crossbow Schematic,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
 crossbowSchematicDesc,items,Book,KgNone,Learn to craft a crossbow by reading this schematic.,Apprenez à fabriquer une arbalète en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Armbrüste gefertigt werden.",,Lee el esquema para aprender a fabricar una ballesta.
-explodingBoltSchematic,items,Book,KgNone,Exploding Crossbow Bolt Schematic,Schéma de carreau d'arbalète explosif,Bauplan – Sprengbolzen für Armbrüste,,Esquema de saeta explosiva para ballesta
-explodingBoltSchematicDesc,items,Book,KgNone,Learn to craft exploding crossbow bolts by reading this schematic.,Apprenez à fabriquer des carreaux d'arbalète explosifs en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Sprengbolzen für Armbrüste gefertigt werden.",,Lee el esquema para aprender a fabricar saetas explosivas para ballesta.
+explodingCrossbowBoltSchematic,items,Book,KgNone,Exploding Bolt Schematic,Schéma de carreau d'arbalète explosif,Bauplan – Sprengbolzen für Armbrüste,,Esquema de saeta explosiva para ballesta
+explodingCrossbowBoltSchematicDesc,items,Book,KgNone,Learn to craft exploding bolts by reading this schematic.,Apprenez à fabriquer des carreaux d'arbalète explosifs en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Sprengbolzen für Armbrüste gefertigt werden.",,Lee el esquema para aprender a fabricar saetas explosivas para ballesta.
 firstAidKitSchematic,items,Book,KgNone,First Aid Kit Schematic,Schéma de trousse de premiers soins,Bauplan – Verbandskasten,,Esquema de botiquín de primeros auxilios
 firstAidKitSchematicDesc,items,Book,KgNone,Learn to make first aid kits by reading this schematic.,Apprenez à fabriquer des trousses de premiers soins en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Verbandskasten gefertigt werden.",,Lee el esquema para aprender a fabricar un botiquín de primeros auxilios.
 flamingArrowSchematic,items,Book,KgNone,Flaming Arrow Schematic,Schéma de flèche enflammée,Bauplan – Feuerpfeil,,Esquema de flecha incendiaria
@@ -1313,6 +1313,7 @@ kevlarLegArmor,items,Clothes,KgNone,Kevlar Leg Armor,Jambières en kevlar,Kevlar
 kevlarVest,items,Clothes,KgNone,Kevlar Vest,Gilet en kevlar,Kevlar-Weste,,Chaleco de Kevlar
 leatherBoots,items,Clothes,KgNone,Leather Boots,Bottes en cuir,Lederstiefel,,Botas de cuero
 leatherPoncho,items,Clothes,KgNone,Leather Poncho,,,,
+leatherLegArmor,items,Clothes,KgNone,Leather Leg Armor,,,,
 leatherClothesGroupDesc,items,Clothes,KgNone,Leather clothing provides a great combination of insulation from the weather and protection from other damage types.,Les vêtements en cuir offrent une combinaison idéale entre l'isolation contre les intempéries et la protection contre d'autres sortes de dégâts.,Lederkleidung kombiniert sehr guten Schutz vor den Witterungen und Schutz vor anderen Schadensarten.,,La ropa de cuero ofrece una gran combinación de aislamiento térmico y protección contra otros tipos de daños.
 leatherGloves,items,Clothes,KgNone,Leather Gloves,Gants en cuir,Lederhandschuhe,,Guantes de cuero
 leatherHood,items,Clothes,KgNone,Leather Hood,Capuche en cuir,Lederkapuze,,Capucha de cuero
@@ -1513,19 +1514,19 @@ dynamiteDesc,items,Gun,KgNone,A stick of dynamite can be lit with the secondary 
 flare,items,Gun,KgNone,Flare,Fusée de détresse,Leuchtfackel,,Bengala
 gunAntiMateriel,items,Gun,KgNone,Anti-Materiel Rifle,,,,
 gunMachinePistol,items,Gun,KgNone,Machine Pistol,,,,
-gunSquadAuto762,items,Gun,KgNone,RPK,,,,
-gunSquadAuto556,items,Gun,KgNone,RPK74,,,,
+gunSquadAuto762,items,Gun,KgNone,Squad Auto Rifle,,,,
+gunSquadAuto556,items,Gun,KgNone,Squad Auto Carbine,,,,
 gunAutoShotgun,items,Gun,KgNone,Auto Shotgun,,,,
-gun44Magnum,items,Gun,KgNone,.44 Magnum,.44 magnum,.44 Magnum,,Magnum 44
-gun44MagnumDesc,items,Gun,KgNone,The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.,"Le .44 magnum est le roi des armes à feu. C'est le pistolet le plus puissant, mais aussi le plus bruyant. Servez-vous-en correctement pour faire plaisir à Clint.","Die .44 Magnum ist die Königin aller Handfeuerwaffen. Sie verursacht am meisten Schaden, ist aber auch am lautesten. Zieh dieses Baby und mach Clint stolz.",,"La Magnum 44 es la reina de las pistolas. Es la más poderosa, pero también la más ruidosa. Empuña esta preciosidad y haz que Clint se sienta orgulloso."
-gunAK47,items,Gun,KgNone,Battle Rifle,Fusil d'assaut AK-47,AK-47 Sturmgewehr,,Rifle de asalto AK-47
-gunAK47Desc,items,Gun,KgNone,This badass AK-47 Battle Rifle uses Battle Rifle (7.62x39mm Soviet) ammo. Can be re-assembled and repaired if you read the schematic.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
-gunAKM,items,Gun,KgNone,Assault Rifle,Fusil d'assaut AK-47,AK-47 Sturmgewehr,,Rifle de asalto AK-47
-gunAKMDesc,items,Gun,KgNone,This AKM or AK74 Assault Rifle uses Assault Rifle (5.45x39mm Soviet) ammo. Can be re-assembled and repaired if you read the schematic.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
+gun44Magnum,items,Gun,KgNone,Magnum Revolver,.44 magnum,.44 Magnum,,Magnum 44
+gun44MagnumDesc,items,Gun,KgNone,King of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.,"Le .44 magnum est le roi des armes à feu. C'est le pistolet le plus puissant, mais aussi le plus bruyant. Servez-vous-en correctement pour faire plaisir à Clint.","Die .44 Magnum ist die Königin aller Handfeuerwaffen. Sie verursacht am meisten Schaden, ist aber auch am lautesten. Zieh dieses Baby und mach Clint stolz.",,"La Magnum 44 es la reina de las pistolas. Es la más poderosa, pero también la más ruidosa. Empuña esta preciosidad y haz que Clint se sienta orgulloso."
+gunAK47,items,Gun,KgNone,Auto Rifle,Fusil d'assaut AK-47,AK-47 Sturmgewehr,,Rifle de asalto AK-47
+gunAK47Desc,items,Gun,KgNone,This AK-47 Auto Rifle uses Rifle Ammo. Can be assembled and repaired if you read the schematic.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
+gunAKM,items,Gun,KgNone,Auto Carbine,Fusil d'assaut AK-47,AK-47 Sturmgewehr,,Rifle de asalto AK-47
+gunAKMDesc,items,Gun,KgNone,This AKM or AK74 carbine uses Carbine Ammo. Can be assembled and repaired if you read the schematic.,"Ultra badass, le fusil d'assaut AK-47 nécessite des munitions de calibre 7,62 mm. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Das krasse AK-47 Sturmgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,Este rudo rifle de asalto AK-47 usa munición de 7.62 mm. Se puede rearmar y reparar si lees el esquema.
 gunHuntingRifle,items,Gun,KgNone,Hunting Rifle,Fusil de chasse,Jagdgewehr,,Rifle de caza
-gunHuntingRifleDesc,items,Gun,KgNone,"This common hunting rifle uses Hunting Rifle (30-06 Springfield) ammo. Can be assembled, repaired and augmented once you've read the schematic.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
-gunSportingRifle,items,Gun,KgNone,Sporting Rifle,Fusil de chasse,Jagdgewehr,,Rifle de caza
-gunSportingRifleDesc,items,Gun,KgNone,"This common sporting rifle uses Sporting Rifle (.223 or 5.56x45mm NATO) ammo. Can be assembled, repaired and augmented once you've read the schematic.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
+gunHuntingRifleDesc,items,Gun,KgNone,"This common hunting rifle uses High Powered Rifle Ammo (HP Rifle Ammo). Can be assembled, repaired and augmented once you've read the schematic.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
+gunSportingRifle,items,Gun,KgNone,Sporting Carbine,Fusil de chasse,Jagdgewehr,,Rifle de caza
+gunSportingRifleDesc,items,Gun,KgNone,"This common sporting carbine uses Carbine Ammo. Can be assembled and repaired once you've read the schematic.","Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar."
 gunMP5,items,Gun,KgNone,SMG,Mitraillette,Maschinenpistole,,Metralleta
 gunPistol,items,Gun,KgNone,Pistol,Pistolet,Pistole,,Revólver
 gunPistolDesc,items,Gun,KgNone,A basic pistol. Uses 9mm ammo. Can be re-assembled and repaired if you read the pistol book.,Un pistolet de base. Nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez « Le livre des pistolets ».,"Eine einfache Pistole. Verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du das Buch „Pistolen“ gelesen hast.",,Un revólver básico. Utiliza munición de 9 mm. Se puede rearmar y reparar si has leído el libro de la pistola.
@@ -1694,6 +1695,11 @@ firstAidKit,items,Medical,KgNone,First Aid Kit,Trousse de premiers soins,Verband
 firstAidKitDesc,items,Medical,KgNone,A first aid kit can stop bleeding and restore a lot of health.,La trousse de premiers soins arrête une hémorragie et restaure beaucoup de santé.,Ein Verbandskasten kann Blutungen stillen und viel Gesundheit wiederherstellen.,,Un botiquín de primeros auxilios puede detener una hemorragia y restaurar bastante salud.
 herbalAntibiotics,items,Medical,KgNone,Herbal Antibiotics,Antibiotiques naturels,Natürliche Antibiotika,,Antibióticos de hierbas
 herbalAntibioticsDesc,items,Medical,KgNone,Herbal antibiotics can cure stage 1 infections and stage 1 and 2 dysentery. Can be crafted in a cooking pot at a campfire.,Les antibiotiques naturels peuvent soigner les infections de niveau 1 et la dysenterie de niveau 1 ou 2. Ils peuvent être fabriqués dans une marmite sur le feu de camp.,Natürliche Antibiotika können Infektionen im 1. und Dysenterie im 1. und 2. Stadium heilen. Kann in einem Kochtopf am Lagerfeuer gefertigt werden.,,Los antibióticos herbales pueden curar infecciones de grado 1 y disentería de grado 1 y 2. Se pueden elaborar en una olla en una fogata.
+healingSalve,items,Medical,KgNone,Healing Salve,,,,
+bloodstopSalve,items,Medical,KgNone,Bloodstop Salve,,,,
+firstAidSalve,items,Medical,KgNone,First Aid Salve,,,,
+quickCureSalve,items,Medical,KgNone,Quick Cure Salve,,,,
+herbalPainkillers,items,Medical,KgNone,Herbal Painkillers,,,,
 splint,items,Medical,KgNone,Splint,Attelle,Schiene,,Tablilla
 splintDesc,items,Medical,KgNone,Use splints to mend sprained or broken limbs. Splints do not protect against further injury.,Utilisez les attelles pour soigner les membres blessés ou cassés. Les attelles ne vous protègent pas contre de nouvelles blessures.,"Benutze Schienen, um verstauchte und gebrochene Gliedmaßen zu heilen. Schienen schützen nicht vor weiteren Verletzungen.",,Usa tablillas para curar esguinces o extremidades fracturadas. Las tablillas no evitan otras lesiones.
 vitamins,items,Medical,KgNone,Vitamins,Vitamines,Vitamine,,Vitaminas
@@ -1710,8 +1716,8 @@ fireClub,items,Melee,KgNone,Fire Club,,,,
 fireClubDesc,items,Melee,KgNone,A metal club with a fire inside. Added chance for burning.,,,,
 clubWood,items,Melee,KgNone,Wooden Club,Massue en bois,Holzknüppel,,Garrote de madera
 clubWoodDesc,items,Melee,KgNone,A wooden club. Good for breaking knees and skulls.,Une massue en bois. Parfaite pour briser des genoux et défoncer des crânes.,"Ein Holzknüppel. Eignet sich dazu, Kniescheiben und Schädel zu brechen.",,Un garrote de madera. Genial para romper rodillas y cabezas.
-leadPipe,items,Melee,KgNone,Lead Pipe,,,,
-leadPipeDesc,items,Melee,KgNone,A lead pipe used for a club. Also good for breaking knees and skulls.,,,,
+leadPipe,items,Melee,KgNone,Lead Club,,,,
+leadPipeDesc,items,Melee,KgNone,A weighted iron club. Also good for breaking knees and skulls.,,,,
 huntingKnife,items,Melee,KgNone,Hunting Knife,Couteau de chasse,Jagdmesser,,Cuchillo de caza
 huntingKnifeDesc,items,Melee,KgNone,Great for slashing zombies and gutting animals for meat.,Idéal pour taillader des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombies aufzuschlitzen und Tiere auszuweiden.",,Genial para acuchillar zombis y destripar animales para conseguir comida.
 machete,items,Melee,KgNone,Machete,Machette,Machete,,Machete
@@ -3532,7 +3538,7 @@ glassBulletproofPlate,blocks,Block,New,Bulletproof Glass Plate,,Panzerglasscheib
 GoreBlock1BonesPrefab,blocks,Block,New,Zombie Remains,,,,
 GoreBlock1Prefab,blocks,Block,New,Zombie Remains,,,,
 greenDrawer,blocks,Block,New,Drawer (No Loot),,Schubfach (keine Beute),,
-hubcapNoMine,blocks,Block,New,Hubcap (No Mine),,,,
+hubcapNoMine,blocks,Block,New,Hubcap,,,,
 hubcapNoMineDesc,blocks,Block,New,Some car lost a hubcap here.,,,,
 ironBarsCentered,blocks,Block,New,Iron Bars Centered,,Eisenstangen mittig,,Barras de hierro centrada
 jailDoor,blocks,Block,New,Jail Door,,Gefängnistür,,
@@ -3861,6 +3867,8 @@ jacketGroupDesc,items,Clothes,New,A jacket will keep you warm in cold environmen
 jacketLetter,items,Clothes,New,College Jacket,,Collegejacke,,
 jacketWhite,items,Clothes,New,White Jacket,,,,
 leatherDusterBlack,items,Clothes,New,Black Leather Duster,,Swarzer Ledermantel,,
+leatherDusterRed,items,Clothes,New,Red Leather Duster,,Swarzer Ledermantel,,
+leatherDusterGreen,items,Clothes,New,Green Leather Duster,,Swarzer Ledermantel,,
 leatherHoodBlack,items,Clothes,New,Black Leather Hood,,,,
 nerdGlasses,items,Clothes,New,Nerdy Glasses,,Starke Brille,,
 nerdGlassesDesc,items,Clothes,New,These make you look smart but you know how looks can be deceiving.,,Ein Bücherwurm zu sein hatte schon mal mehr Vorteile als gut mit einer Keule umgehen zu können.,,
@@ -3949,6 +3957,7 @@ partsCompoundBow_parts,items,Part,New,Compound Bow Parts,,Compoundbogen-Rollen,,
 partsCompoundBow_string,items,Part,New,Compound Bow String,,Compoundbogen-Sehne,,
 partsCompoundBowGroupDesc,items,Part,New,A part of a compound bow. Assemble with other parts to create a complete compound bow once you've read the compound bow schematic.,,"Ein Teil eines Compoundbogens. Setze es mit den anderen Teilen zu einem Compoundbogens zusammen, wenn du das Buch „Compoundbogen“ gelesen hast.",,
 partsNailgun_battery,items,Part,New,Rechargeable Battery,,,,
+partsBattery,items,Part,New,Rechargeable Battery,,,,
 partsNailgun_frame,items,Part,New,Nailgun Frame,,,,
 partsNailgun_parts,items,Part,New,Nailgun Parts,,,,
 partsNailgun_receiver,items,Part,New,Nailgun Receiver,,,,

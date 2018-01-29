@@ -4480,7 +4480,8 @@ kind of free
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<drop event="Destroy" name="scrapIron" count="5,15" prob="1"/>
+		<property name="Weight" value="40"/>
+		<!-- <drop event="Destroy" name="scrapIron" count="5,15" prob="1"/> -->
 	</block>
 	<block id="471" name="signRoadAZ260eastSpeed65">
 		<property name="Extends" value="signRoadArrowheadApache"/>
@@ -9939,6 +9940,7 @@ kind of free
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="25"/>
 		<property name="StabilitySupport" value="false"/>
+		<property name="Weight" value="30"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>

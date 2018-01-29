@@ -274,7 +274,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 		</trader_item_group>
 		<trader_item_group name="weaponsCrossbow+ammo" count="all">
 			<item name="crossbow" count="1"/>
-			<item name="ironBolt" count="10,30"/>
+			<item name="metalBolt" count="10,30"/>
 		</trader_item_group>
 		<trader_item_group name="rareMedicine" count="1">
 			<item name="firstAidKit"/>
@@ -341,7 +341,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="augerSchematic"/>
 			<item name="chainsawSchematic"/>
 			<!-- <item name="clubSpikedSchematic"/> -->
-			<item name="explodingBoltSchematic"/>
+			<item name="explodingCrossbowBoltSchematic"/>
 			<item name="firstAidKitSchematic"/>
 			<item name="flamingArrowSchematic"/>
 			<item name="gasCanSchematic"/>
@@ -413,10 +413,10 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="shotgunShell" count="15,50"/>
 			<item name="shotgunSlug" count="6,18" prob="0.1"/>
 			<item name="rocket" count="1,4"/>
-			<item name="ironArrow" count="20,60"/>
-			<item name="steelArrow" count="20,60"/>
-			<item name="ironBolt" count="20,60"/>
-			<item name="steelBolt" count="20,60"/>
+			<!-- <item name="ironArrow" count="20,60"/> -->
+			<!-- <item name="steelArrow" count="20,60"/> -->
+			<!-- <item name="ironBolt" count="20,60"/> -->
+			<!-- <item name="steelBolt" count="20,60"/> -->
 		</trader_item_group>
 		<trader_item_group name="ammoSupplies">
 			<item name="bulletCasing" count="8,40"/>
@@ -429,9 +429,9 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<!-- 10 -->
 			<item name="paper" count="10,30"/>
 			<!-- 10 -->
-			<item name="ironArrowHead" count="5,25" prob="0.05"/>
+			<!-- <item name="ironArrowHead" count="5,25" prob="0.05"/> -->
 			<!-- 5 -->
-			<item name="steelArrowHead" count="5,25" prob="0.05"/>
+			<!-- <item name="steelArrowHead" count="5,25" prob="0.05"/> -->
 			<!-- 5 -->>
 			<item name="feather" count="10,45"/>
 			<!-- 5 -->
@@ -580,11 +580,11 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="shovelSteel"/>
 		</trader_item_group>
 		<trader_item_group name="tools" count="1">
-			<item name="pickaxeIron"/>
-			<item name="shovelIron"/>
+			<!-- <item name="pickaxeIron"/> -->
+			<!-- <item name="shovelIron"/> -->
 			<item name="woodAxe"/>
 			<item name="sledgehammer"/>
-			<item name="hoeIron"/>
+			<!-- <item name="hoeIron"/> -->
 			<item name="clawHammer"/>
 			<item name="wrench" prob="0.8"/>
 			<item name="repairKit" count="1,4"/>

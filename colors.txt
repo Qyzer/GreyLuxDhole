@@ -1,0 +1,27 @@
+red
+		<property name="CustomIconTint" value="172,33,50"/>
+		
+		
+brown
+
+		<property name="CustomIconTint" value="132,105,84"/>
+
+Green
+
+		<property name="CustomIconTint" value="51,92,65"/>
+
+Blue
+		<property name="CustomIconTint" value="110,173,255"/>
+		
+Black
+
+		<property name="CustomIconTint" value="87,87,87"/>
+
+
+
+
+
+
+
+
+

@@ -245,6 +245,7 @@
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
 			<requirement type="Holding" id="fireaxeIron" />
 			<requirement type="Holding" id="fireaxeSteel" />
+			<requirement type="Holding" id="woodAxe" />
 		</requirement>
 
 		<reward type="SkillPoints" value="5" />
